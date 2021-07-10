@@ -1,0 +1,4485 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8aa2ff646c404d08a8da8b5195ae7e78 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8aa2ff646c404d08a8da8b5195ae7e78" ></div>
+        
+</body>
+<script>    
+    
+            var map_8aa2ff646c404d08a8da8b5195ae7e78 = L.map(
+                "map_8aa2ff646c404d08a8da8b5195ae7e78",
+                {
+                    center: [13.736, 100.523],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_979f8ca9b40244e8be20221ab93e4430 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var marker_9e1c3cd82eb649a9b01b69932e4ac680 = L.marker(
+                [13.732846, 100.487662],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_e6514fbaea964d4aa2164b6f306439a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_9e1c3cd82eb649a9b01b69932e4ac680.setIcon(icon_e6514fbaea964d4aa2164b6f306439a6);
+        
+    
+        var popup_ab7454d8110047858c6b443d7105c559 = L.popup({"maxWidth": 500});
+
+        
+            var html_04e802003eca450ca462489ddae3a59f = $(`<div id="html_04e802003eca450ca462489ddae3a59f" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_ab7454d8110047858c6b443d7105c559.setContent(html_04e802003eca450ca462489ddae3a59f);
+        
+
+        marker_9e1c3cd82eb649a9b01b69932e4ac680.bindPopup(popup_ab7454d8110047858c6b443d7105c559)
+        ;
+
+        
+    
+    
+            marker_9e1c3cd82eb649a9b01b69932e4ac680.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62d7f009e4e549398c899a16195b1c70 = L.marker(
+                [13.636514, 100.414262],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_63178c6f08e64d5f8e72b0894133da9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_62d7f009e4e549398c899a16195b1c70.setIcon(icon_63178c6f08e64d5f8e72b0894133da9f);
+        
+    
+        var popup_b7b6b89c9aa34718973ae3b437f113d5 = L.popup({"maxWidth": 500});
+
+        
+            var html_a0ff654bcfa7424f85127a284c47b3fc = $(`<div id="html_a0ff654bcfa7424f85127a284c47b3fc" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_b7b6b89c9aa34718973ae3b437f113d5.setContent(html_a0ff654bcfa7424f85127a284c47b3fc);
+        
+
+        marker_62d7f009e4e549398c899a16195b1c70.bindPopup(popup_b7b6b89c9aa34718973ae3b437f113d5)
+        ;
+
+        
+    
+    
+            marker_62d7f009e4e549398c899a16195b1c70.bindTooltip(
+                `<div>
+                     ริมถนนทางหลวงหมายเลข 3902 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27af1290fa0e46f5b79a5cad32c15009 = L.marker(
+                [13.666183, 100.605742],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_995fe069000e40199452d6485d4ff842 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_27af1290fa0e46f5b79a5cad32c15009.setIcon(icon_995fe069000e40199452d6485d4ff842);
+        
+    
+        var popup_20d5d2add9cf4f489e372ce25f571a13 = L.popup({"maxWidth": 500});
+
+        
+            var html_0a470f9b38614d0f85acb38998f9277a = $(`<div id="html_0a470f9b38614d0f85acb38998f9277a" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_20d5d2add9cf4f489e372ce25f571a13.setContent(html_0a470f9b38614d0f85acb38998f9277a);
+        
+
+        marker_27af1290fa0e46f5b79a5cad32c15009.bindPopup(popup_20d5d2add9cf4f489e372ce25f571a13)
+        ;
+
+        
+    
+    
+            marker_27af1290fa0e46f5b79a5cad32c15009.bindTooltip(
+                `<div>
+                     กรมอุตุนิยมวิทยาบางนา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99c81d236b2c47bf9faf7927ab4c1c49 = L.marker(
+                [13.779873, 100.646009],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_aa8f19256ea64bdc8fdf8b69e5b5afdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_99c81d236b2c47bf9faf7927ab4c1c49.setIcon(icon_aa8f19256ea64bdc8fdf8b69e5b5afdf);
+        
+    
+        var popup_bf7fdbfa2ce0472287ea429f7fbb4ec5 = L.popup({"maxWidth": 500});
+
+        
+            var html_dea694f74eed4bcc8cad002f123b9de7 = $(`<div id="html_dea694f74eed4bcc8cad002f123b9de7" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 21</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_bf7fdbfa2ce0472287ea429f7fbb4ec5.setContent(html_dea694f74eed4bcc8cad002f123b9de7);
+        
+
+        marker_99c81d236b2c47bf9faf7927ab4c1c49.bindPopup(popup_bf7fdbfa2ce0472287ea429f7fbb4ec5)
+        ;
+
+        
+    
+    
+            marker_99c81d236b2c47bf9faf7927ab4c1c49.bindTooltip(
+                `<div>
+                     เคหะชุมชนคลองจั่น
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_776eb66ac2324a6eabc81a0435276e5b = L.marker(
+                [13.77553, 100.569195],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_1692806711e64084b7fffe43b6e85c7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_776eb66ac2324a6eabc81a0435276e5b.setIcon(icon_1692806711e64084b7fffe43b6e85c7a);
+        
+    
+        var popup_741c32cc6e3845b68cdd1bc7c8f95e3d = L.popup({"maxWidth": 500});
+
+        
+            var html_412b49eabb434b5dab0ea228b0059553 = $(`<div id="html_412b49eabb434b5dab0ea228b0059553" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_741c32cc6e3845b68cdd1bc7c8f95e3d.setContent(html_412b49eabb434b5dab0ea228b0059553);
+        
+
+        marker_776eb66ac2324a6eabc81a0435276e5b.bindPopup(popup_741c32cc6e3845b68cdd1bc7c8f95e3d)
+        ;
+
+        
+    
+    
+            marker_776eb66ac2324a6eabc81a0435276e5b.bindTooltip(
+                `<div>
+                     การเคหะชุมชนห้วยขวาง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52f3a1aa9cc44e589c1459a07fb254a6 = L.marker(
+                [13.708067, 100.547333],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_62773854d68a469fa497c0a0be97a15f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_52f3a1aa9cc44e589c1459a07fb254a6.setIcon(icon_62773854d68a469fa497c0a0be97a15f);
+        
+    
+        var popup_c35bbee664ac4fc2b720ad62afde573d = L.popup({"maxWidth": 500});
+
+        
+            var html_5b5d68c110424ca6926a451885da6a19 = $(`<div id="html_5b5d68c110424ca6926a451885da6a19" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_c35bbee664ac4fc2b720ad62afde573d.setContent(html_5b5d68c110424ca6926a451885da6a19);
+        
+
+        marker_52f3a1aa9cc44e589c1459a07fb254a6.bindPopup(popup_c35bbee664ac4fc2b720ad62afde573d)
+        ;
+
+        
+    
+    
+            marker_52f3a1aa9cc44e589c1459a07fb254a6.bindTooltip(
+                `<div>
+                     โรงเรียนนนทรีวิทยา 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78bf3447fc904c469223575d5b5ccdc0 = L.marker(
+                [13.729852, 100.536501],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_74713e6026054c2abda23cd969acd941 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_78bf3447fc904c469223575d5b5ccdc0.setIcon(icon_74713e6026054c2abda23cd969acd941);
+        
+    
+        var popup_7d35a47003f84cff9e1f7f49a7b113dc = L.popup({"maxWidth": 500});
+
+        
+            var html_1a69c8c78c43410b8610773a7a619272 = $(`<div id="html_1a69c8c78c43410b8610773a7a619272" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_7d35a47003f84cff9e1f7f49a7b113dc.setContent(html_1a69c8c78c43410b8610773a7a619272);
+        
+
+        marker_78bf3447fc904c469223575d5b5ccdc0.bindPopup(popup_7d35a47003f84cff9e1f7f49a7b113dc)
+        ;
+
+        
+    
+    
+            marker_78bf3447fc904c469223575d5b5ccdc0.bindTooltip(
+                `<div>
+                     โรงพยาบาลจุฬาลงกรณ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86578a2838824e44bc8dbf43648e2a04 = L.marker(
+                [13.727622, 100.486568],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d356c6ab643a4baf99071bf4090f324a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_86578a2838824e44bc8dbf43648e2a04.setIcon(icon_d356c6ab643a4baf99071bf4090f324a);
+        
+    
+        var popup_20b1c7c6eb314d4c993aad1797eaea31 = L.popup({"maxWidth": 500});
+
+        
+            var html_f3b5d91942434333be8038a09492aeba = $(`<div id="html_f3b5d91942434333be8038a09492aeba" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_20b1c7c6eb314d4c993aad1797eaea31.setContent(html_f3b5d91942434333be8038a09492aeba);
+        
+
+        marker_86578a2838824e44bc8dbf43648e2a04.bindPopup(popup_20b1c7c6eb314d4c993aad1797eaea31)
+        ;
+
+        
+    
+    
+            marker_86578a2838824e44bc8dbf43648e2a04.bindTooltip(
+                `<div>
+                     การไฟฟ้าย่อยธนบุรี 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dc4cca15f314b28a8cce112379cf3a9 = L.marker(
+                [13.795425, 100.593023],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_7386b1786bc746f18b24d7452022bac9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6dc4cca15f314b28a8cce112379cf3a9.setIcon(icon_7386b1786bc746f18b24d7452022bac9);
+        
+    
+        var popup_0582ed3a45ec4cbbb7efbe5760f7e39e = L.popup({"maxWidth": 500});
+
+        
+            var html_4bb9edac78884974b3387f38e43eb8c9 = $(`<div id="html_4bb9edac78884974b3387f38e43eb8c9" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_0582ed3a45ec4cbbb7efbe5760f7e39e.setContent(html_4bb9edac78884974b3387f38e43eb8c9);
+        
+
+        marker_6dc4cca15f314b28a8cce112379cf3a9.bindPopup(popup_0582ed3a45ec4cbbb7efbe5760f7e39e)
+        ;
+
+        
+    
+    
+            marker_6dc4cca15f314b28a8cce112379cf3a9.bindTooltip(
+                `<div>
+                     สถานีตำรวจนครบาลโชคชัย 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9794e3123044e669478af3597dd9d86 = L.marker(
+                [13.762517, 100.5502],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_987b8971972645b5b00b31bfd7735394 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d9794e3123044e669478af3597dd9d86.setIcon(icon_987b8971972645b5b00b31bfd7735394);
+        
+    
+        var popup_97353818b349403ab8958fd920467460 = L.popup({"maxWidth": 500});
+
+        
+            var html_be59073752194edaaaa2f82c5ff25b76 = $(`<div id="html_be59073752194edaaaa2f82c5ff25b76" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 26</h5> <h5>ค่าPM2.5 : 23 µg/m³</h5> <b>ระดับความรุนเเรง : 2</b></div>`)[0];
+            popup_97353818b349403ab8958fd920467460.setContent(html_be59073752194edaaaa2f82c5ff25b76);
+        
+
+        marker_d9794e3123044e669478af3597dd9d86.bindPopup(popup_97353818b349403ab8958fd920467460)
+        ;
+
+        
+    
+    
+            marker_d9794e3123044e669478af3597dd9d86.bindTooltip(
+                `<div>
+                     การเคหะชุมชนดินแดง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee30a5c7b9d5488ca7724c3b70bee5b6 = L.marker(
+                [13.783185, 100.540489],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_176592a9b90047e3a2d095ede53ddbf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ee30a5c7b9d5488ca7724c3b70bee5b6.setIcon(icon_176592a9b90047e3a2d095ede53ddbf1);
+        
+    
+        var popup_b0f61fe7172c44c688c76dbfebae5da7 = L.popup({"maxWidth": 500});
+
+        
+            var html_64a82e0a1d094e93b7e19a752b34bebe = $(`<div id="html_64a82e0a1d094e93b7e19a752b34bebe" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 21</h5> <h5>ค่าPM2.5 : 9 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_b0f61fe7172c44c688c76dbfebae5da7.setContent(html_64a82e0a1d094e93b7e19a752b34bebe);
+        
+
+        marker_ee30a5c7b9d5488ca7724c3b70bee5b6.bindPopup(popup_b0f61fe7172c44c688c76dbfebae5da7)
+        ;
+
+        
+    
+    
+            marker_ee30a5c7b9d5488ca7724c3b70bee5b6.bindTooltip(
+                `<div>
+                     กรมประชาสัมพันธ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed8daf1b511845b893efab2d594411ab = L.marker(
+                [13.769634, 100.614567],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_2e282c9b986b48e78fd92bee2dc5265f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ed8daf1b511845b893efab2d594411ab.setIcon(icon_2e282c9b986b48e78fd92bee2dc5265f);
+        
+    
+        var popup_8d7961c450f44f94aca6adda57465302 = L.popup({"maxWidth": 500});
+
+        
+            var html_1887081300a34a25ae9574928ef07553 = $(`<div id="html_1887081300a34a25ae9574928ef07553" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 19</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_8d7961c450f44f94aca6adda57465302.setContent(html_1887081300a34a25ae9574928ef07553);
+        
+
+        marker_ed8daf1b511845b893efab2d594411ab.bindPopup(popup_8d7961c450f44f94aca6adda57465302)
+        ;
+
+        
+    
+    
+            marker_ed8daf1b511845b893efab2d594411ab.bindTooltip(
+                `<div>
+                     โรงเรียนบดินทรเดชา (สิงห์ สิงหเสนี) 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e592ca3bd0a4932b4c985a2a53bc0ea = L.marker(
+                [13.785212, 100.669183],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_06f4ff92d3644007a5a0847ea3c5a200 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8e592ca3bd0a4932b4c985a2a53bc0ea.setIcon(icon_06f4ff92d3644007a5a0847ea3c5a200);
+        
+    
+        var popup_0827822e4cd7436bb07770f68820a3aa = L.popup({"maxWidth": 500});
+
+        
+            var html_d705e346bde64cb785263cd041d7bd45 = $(`<div id="html_d705e346bde64cb785263cd041d7bd45" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_0827822e4cd7436bb07770f68820a3aa.setContent(html_d705e346bde64cb785263cd041d7bd45);
+        
+
+        marker_8e592ca3bd0a4932b4c985a2a53bc0ea.bindPopup(popup_0827822e4cd7436bb07770f68820a3aa)
+        ;
+
+        
+    
+    
+            marker_8e592ca3bd0a4932b4c985a2a53bc0ea.bindTooltip(
+                `<div>
+                     สำนักงานเขตบึงกุ่ม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bee555e10074df9a1bed053a82bfe17 = L.marker(
+                [13.859911, 100.704002],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_42879b3537944afb8e7f3f5c9a76d305 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8bee555e10074df9a1bed053a82bfe17.setIcon(icon_42879b3537944afb8e7f3f5c9a76d305);
+        
+    
+        var popup_5a2e8a541cb3405883ae31a2708b29b0 = L.popup({"maxWidth": 500});
+
+        
+            var html_cbbf358079bc4e6083771bc020c43207 = $(`<div id="html_cbbf358079bc4e6083771bc020c43207" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_5a2e8a541cb3405883ae31a2708b29b0.setContent(html_cbbf358079bc4e6083771bc020c43207);
+        
+
+        marker_8bee555e10074df9a1bed053a82bfe17.bindPopup(popup_5a2e8a541cb3405883ae31a2708b29b0)
+        ;
+
+        
+    
+    
+            marker_8bee555e10074df9a1bed053a82bfe17.bindTooltip(
+                `<div>
+                     สำนักงานเขตคลองสามวา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b27cac6335294c929e41380ef450cc06 = L.marker(
+                [13.677757, 100.483861],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_8ea9df6cdae3468d82999bacf461df52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b27cac6335294c929e41380ef450cc06.setIcon(icon_8ea9df6cdae3468d82999bacf461df52);
+        
+    
+        var popup_d5aac03816ba455ca941b85a3250f3a6 = L.popup({"maxWidth": 500});
+
+        
+            var html_e4ca16eebf064614a97fd971a9d182d9 = $(`<div id="html_e4ca16eebf064614a97fd971a9d182d9" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 6</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_d5aac03816ba455ca941b85a3250f3a6.setContent(html_e4ca16eebf064614a97fd971a9d182d9);
+        
+
+        marker_b27cac6335294c929e41380ef450cc06.bindPopup(popup_d5aac03816ba455ca941b85a3250f3a6)
+        ;
+
+        
+    
+    
+            marker_b27cac6335294c929e41380ef450cc06.bindTooltip(
+                `<div>
+                     สำนักงานเขตจอมทอง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5abc60374d6140ce8471d89891c4c09e = L.marker(
+                [13.793965, 100.504956],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_8966f3d7bf144dae804879262d6b71c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5abc60374d6140ce8471d89891c4c09e.setIcon(icon_8966f3d7bf144dae804879262d6b71c4);
+        
+    
+        var popup_f7e9dc2f2ddb40eb93a3f5c10623e322 = L.popup({"maxWidth": 500});
+
+        
+            var html_74f4e591a2514d11b0c2b16b589f3b42 = $(`<div id="html_74f4e591a2514d11b0c2b16b589f3b42" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : -1</h5> <h5>ค่าPM2.5 : - µg/m³</h5> <b>ระดับความรุนเเรง : 0</b></div>`)[0];
+            popup_f7e9dc2f2ddb40eb93a3f5c10623e322.setContent(html_74f4e591a2514d11b0c2b16b589f3b42);
+        
+
+        marker_5abc60374d6140ce8471d89891c4c09e.bindPopup(popup_f7e9dc2f2ddb40eb93a3f5c10623e322)
+        ;
+
+        
+    
+    
+            marker_5abc60374d6140ce8471d89891c4c09e.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางพลัด
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60fb484f4463429c8fbcefb887cf9a33 = L.marker(
+                [13.696314, 100.409049],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_6ee5f46f14844e309cc2df74c1d81845 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_60fb484f4463429c8fbcefb887cf9a33.setIcon(icon_6ee5f46f14844e309cc2df74c1d81845);
+        
+    
+        var popup_687320f5b3b743f5aee3ab31e5021dd8 = L.popup({"maxWidth": 500});
+
+        
+            var html_f894373ad6304212a6ce167e39f56d2c = $(`<div id="html_f894373ad6304212a6ce167e39f56d2c" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 8</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_687320f5b3b743f5aee3ab31e5021dd8.setContent(html_f894373ad6304212a6ce167e39f56d2c);
+        
+
+        marker_60fb484f4463429c8fbcefb887cf9a33.bindPopup(popup_687320f5b3b743f5aee3ab31e5021dd8)
+        ;
+
+        
+    
+    
+            marker_60fb484f4463429c8fbcefb887cf9a33.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางแค
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fd270236ec24571b45d2d076f542bea = L.marker(
+                [13.659908, 100.435902],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_6ab8ab46a15f4b4b996e91898e3186a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_5fd270236ec24571b45d2d076f542bea.setIcon(icon_6ab8ab46a15f4b4b996e91898e3186a9);
+        
+    
+        var popup_4d4482406f8e49089c6c24260c82950b = L.popup({"maxWidth": 500});
+
+        
+            var html_3d2cd6db5857412bb03925781f8706f5 = $(`<div id="html_3d2cd6db5857412bb03925781f8706f5" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_4d4482406f8e49089c6c24260c82950b.setContent(html_3d2cd6db5857412bb03925781f8706f5);
+        
+
+        marker_5fd270236ec24571b45d2d076f542bea.bindPopup(popup_4d4482406f8e49089c6c24260c82950b)
+        ;
+
+        
+    
+    
+            marker_5fd270236ec24571b45d2d076f542bea.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางขุนเทียน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52261860ba9245ee9dee5e6135456bac = L.marker(
+                [13.7619223, 100.558606],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_5379d7a08e974544b20707c40efd23b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_52261860ba9245ee9dee5e6135456bac.setIcon(icon_5379d7a08e974544b20707c40efd23b5);
+        
+    
+        var popup_f032c63dac4441b082e41e2e1935c219 = L.popup({"maxWidth": 500});
+
+        
+            var html_e6efbcc37bd644bdab07802b0187e0b5 = $(`<div id="html_e6efbcc37bd644bdab07802b0187e0b5" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 21</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_f032c63dac4441b082e41e2e1935c219.setContent(html_e6efbcc37bd644bdab07802b0187e0b5);
+        
+
+        marker_52261860ba9245ee9dee5e6135456bac.bindPopup(popup_f032c63dac4441b082e41e2e1935c219)
+        ;
+
+        
+    
+    
+            marker_52261860ba9245ee9dee5e6135456bac.bindTooltip(
+                `<div>
+                     สำนักงานเขตดินแดง กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8327e3f7fab44ac196de50de6723438f = L.marker(
+                [13.691511, 100.61457],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3e45db76177b4e0288d72ff4f7e6fc0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8327e3f7fab44ac196de50de6723438f.setIcon(icon_3e45db76177b4e0288d72ff4f7e6fc0c);
+        
+    
+        var popup_0a215c612f2a4af9915167a609b0562b = L.popup({"maxWidth": 500});
+
+        
+            var html_856f2936ba77469286e42934e7836f26 = $(`<div id="html_856f2936ba77469286e42934e7836f26" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 21</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_0a215c612f2a4af9915167a609b0562b.setContent(html_856f2936ba77469286e42934e7836f26);
+        
+
+        marker_8327e3f7fab44ac196de50de6723438f.bindPopup(popup_0a215c612f2a4af9915167a609b0562b)
+        ;
+
+        
+    
+    
+            marker_8327e3f7fab44ac196de50de6723438f.bindTooltip(
+                `<div>
+                     สำนักงานเขตพระโขนง กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45c72aea96b442b193e420dab38abf21 = L.marker(
+                [13.6821364, 100.5060513],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_e51177a840a040cd8e1af94c037410d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_45c72aea96b442b193e420dab38abf21.setIcon(icon_e51177a840a040cd8e1af94c037410d4);
+        
+    
+        var popup_03794662d3d74c5196414d908cd23171 = L.popup({"maxWidth": 500});
+
+        
+            var html_b8c69ec4810b4b469d849e46b8d93ecb = $(`<div id="html_b8c69ec4810b4b469d849e46b8d93ecb" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 24</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_03794662d3d74c5196414d908cd23171.setContent(html_b8c69ec4810b4b469d849e46b8d93ecb);
+        
+
+        marker_45c72aea96b442b193e420dab38abf21.bindPopup(popup_03794662d3d74c5196414d908cd23171)
+        ;
+
+        
+    
+    
+            marker_45c72aea96b442b193e420dab38abf21.bindTooltip(
+                `<div>
+                     สำนักงานเขตราษฎร์บูรณะ กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e74874e30fc4726bdb10c9d7419fd24 = L.marker(
+                [13.7590851, 100.5345788],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_9f46e2c88da14d17a61df1f27dfd8c10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_1e74874e30fc4726bdb10c9d7419fd24.setIcon(icon_9f46e2c88da14d17a61df1f27dfd8c10);
+        
+    
+        var popup_5e4e4c6ea90048768ba18530e115ab28 = L.popup({"maxWidth": 500});
+
+        
+            var html_093e8d3895084e108a5f7df31e4e2bee = $(`<div id="html_093e8d3895084e108a5f7df31e4e2bee" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_5e4e4c6ea90048768ba18530e115ab28.setContent(html_093e8d3895084e108a5f7df31e4e2bee);
+        
+
+        marker_1e74874e30fc4726bdb10c9d7419fd24.bindPopup(popup_5e4e4c6ea90048768ba18530e115ab28)
+        ;
+
+        
+    
+    
+            marker_1e74874e30fc4726bdb10c9d7419fd24.bindTooltip(
+                `<div>
+                     สำนักงานเขตราชเทวี กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8390db645bc48999590ee2b56d20d7e = L.marker(
+                [13.776664, 100.520982],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_5af1fbfc25d143179a3765d7556c4705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e8390db645bc48999590ee2b56d20d7e.setIcon(icon_5af1fbfc25d143179a3765d7556c4705);
+        
+    
+        var popup_f2b0e707f6a64c6b903127bc10dc52e1 = L.popup({"maxWidth": 500});
+
+        
+            var html_e8eafab716594c138071628198088dec = $(`<div id="html_e8eafab716594c138071628198088dec" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_f2b0e707f6a64c6b903127bc10dc52e1.setContent(html_e8eafab716594c138071628198088dec);
+        
+
+        marker_e8390db645bc48999590ee2b56d20d7e.bindPopup(popup_f2b0e707f6a64c6b903127bc10dc52e1)
+        ;
+
+        
+    
+    
+            marker_e8390db645bc48999590ee2b56d20d7e.bindTooltip(
+                `<div>
+                     ริมสวนหย่อมตรงข้ามสำนักงานเขตดุสิต
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73a6a1a9a8234a248883e0cf8e86ec1b = L.marker(
+                [13.756281, 100.514267],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_64080324e2d9484baf971369e4fc0e41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_73a6a1a9a8234a248883e0cf8e86ec1b.setIcon(icon_64080324e2d9484baf971369e4fc0e41);
+        
+    
+        var popup_2d4f4d9211eb47f9a1ba814d9d6af4e7 = L.popup({"maxWidth": 500});
+
+        
+            var html_240b4fa5c20c4d798d4b395e4573a1eb = $(`<div id="html_240b4fa5c20c4d798d4b395e4573a1eb" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_2d4f4d9211eb47f9a1ba814d9d6af4e7.setContent(html_240b4fa5c20c4d798d4b395e4573a1eb);
+        
+
+        marker_73a6a1a9a8234a248883e0cf8e86ec1b.bindPopup(popup_2d4f4d9211eb47f9a1ba814d9d6af4e7)
+        ;
+
+        
+    
+    
+            marker_73a6a1a9a8234a248883e0cf8e86ec1b.bindTooltip(
+                `<div>
+                     สำนักงานคณะกรรมการพัฒนาเศรษฐกิจและสังคมแห่งชาติ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebbe99b37ced409698abfb10ac7bf7aa = L.marker(
+                [13.737136, 100.512734],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_1ceed4be389040db8133cd8957cd425f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ebbe99b37ced409698abfb10ac7bf7aa.setIcon(icon_1ceed4be389040db8133cd8957cd425f);
+        
+    
+        var popup_18d9850310144e50929b2ccefbf07570 = L.popup({"maxWidth": 500});
+
+        
+            var html_550975b2b84740f08e21d0cf3cda7da2 = $(`<div id="html_550975b2b84740f08e21d0cf3cda7da2" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_18d9850310144e50929b2ccefbf07570.setContent(html_550975b2b84740f08e21d0cf3cda7da2);
+        
+
+        marker_ebbe99b37ced409698abfb10ac7bf7aa.bindPopup(popup_18d9850310144e50929b2ccefbf07570)
+        ;
+
+        
+    
+    
+            marker_ebbe99b37ced409698abfb10ac7bf7aa.bindTooltip(
+                `<div>
+                     วงเวียนโอเดียน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5580e98b4072444cb6789e2f9e126805 = L.marker(
+                [13.783554, 100.5344645],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_ce90187c7a1744c1b5b53fb6a7314262 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_5580e98b4072444cb6789e2f9e126805.setIcon(icon_ce90187c7a1744c1b5b53fb6a7314262);
+        
+    
+        var popup_5e51460a929842f5b85b0af34a357485 = L.popup({"maxWidth": 500});
+
+        
+            var html_a016995f88ee45f4b59e43cc59353de2 = $(`<div id="html_a016995f88ee45f4b59e43cc59353de2" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_5e51460a929842f5b85b0af34a357485.setContent(html_a016995f88ee45f4b59e43cc59353de2);
+        
+
+        marker_5580e98b4072444cb6789e2f9e126805.bindPopup(popup_5e51460a929842f5b85b0af34a357485)
+        ;
+
+        
+    
+    
+            marker_5580e98b4072444cb6789e2f9e126805.bindTooltip(
+                `<div>
+                     แฟลตทหารบก สามเสน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a69ba409c4b4ebf8563c811a7665571 = L.marker(
+                [13.778981, 100.622294],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d5da61af93634cdb904ffe82d8c8f35f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6a69ba409c4b4ebf8563c811a7665571.setIcon(icon_d5da61af93634cdb904ffe82d8c8f35f);
+        
+    
+        var popup_9e0b103fe6cc4316981d6f1d42d679f5 = L.popup({"maxWidth": 500});
+
+        
+            var html_8ec885d85aff4256a3e0c6b7751c7cdd = $(`<div id="html_8ec885d85aff4256a3e0c6b7751c7cdd" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 20</h5> <h5>ค่าPM2.5 : 20 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_9e0b103fe6cc4316981d6f1d42d679f5.setContent(html_8ec885d85aff4256a3e0c6b7751c7cdd);
+        
+
+        marker_6a69ba409c4b4ebf8563c811a7665571.bindPopup(popup_9e0b103fe6cc4316981d6f1d42d679f5)
+        ;
+
+        
+    
+    
+            marker_6a69ba409c4b4ebf8563c811a7665571.bindTooltip(
+                `<div>
+                     สำนักงานเขตวังทองหลาง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ff815fc14e04d4e8bf35b1007ce5b0b = L.marker(
+                [13.733136, 100.52829],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_532bdb47ce724ee5b03a9f88daabfa0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_1ff815fc14e04d4e8bf35b1007ce5b0b.setIcon(icon_532bdb47ce724ee5b03a9f88daabfa0c);
+        
+    
+        var popup_1d9f9dd76b86452a9cbaeecaf5a7f8db = L.popup({"maxWidth": 500});
+
+        
+            var html_aea9fb8e632f4d9cbd4b3db667816c97 = $(`<div id="html_aea9fb8e632f4d9cbd4b3db667816c97" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 10</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_1d9f9dd76b86452a9cbaeecaf5a7f8db.setContent(html_aea9fb8e632f4d9cbd4b3db667816c97);
+        
+
+        marker_1ff815fc14e04d4e8bf35b1007ce5b0b.bindPopup(popup_1d9f9dd76b86452a9cbaeecaf5a7f8db)
+        ;
+
+        
+    
+    
+            marker_1ff815fc14e04d4e8bf35b1007ce5b0b.bindTooltip(
+                `<div>
+                     สามย่านมิตรทาวน์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb8a79f1e5cc46dd90375955c867c9fd = L.marker(
+                [13.726136, 100.528055],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_4dc46171f03d4a96972fba74a463d3a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_bb8a79f1e5cc46dd90375955c867c9fd.setIcon(icon_4dc46171f03d4a96972fba74a463d3a6);
+        
+    
+        var popup_64f51f4f5338443694160772c0694208 = L.popup({"maxWidth": 500});
+
+        
+            var html_9b7503de27f34f3ba5b87b12798d1ee6 = $(`<div id="html_9b7503de27f34f3ba5b87b12798d1ee6" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 7</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_64f51f4f5338443694160772c0694208.setContent(html_9b7503de27f34f3ba5b87b12798d1ee6);
+        
+
+        marker_bb8a79f1e5cc46dd90375955c867c9fd.bindPopup(popup_64f51f4f5338443694160772c0694208)
+        ;
+
+        
+    
+    
+            marker_bb8a79f1e5cc46dd90375955c867c9fd.bindTooltip(
+                `<div>
+                     ลานบางรักเลิฟลี่ พลาซ่า
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f06d0f566e81407e8d2108952e7e497d = L.marker(
+                [13.707763, 100.526787],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_b39f1daeb69d40709ce9287bfccd2c90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f06d0f566e81407e8d2108952e7e497d.setIcon(icon_b39f1daeb69d40709ce9287bfccd2c90);
+        
+    
+        var popup_eae0073358d642328276847d10c5939b = L.popup({"maxWidth": 500});
+
+        
+            var html_52eb75ad0c9e44aab866e98ac04353da = $(`<div id="html_52eb75ad0c9e44aab866e98ac04353da" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : -1</h5> <h5>ค่าPM2.5 : - µg/m³</h5> <b>ระดับความรุนเเรง : 0</b></div>`)[0];
+            popup_eae0073358d642328276847d10c5939b.setContent(html_52eb75ad0c9e44aab866e98ac04353da);
+        
+
+        marker_f06d0f566e81407e8d2108952e7e497d.bindPopup(popup_eae0073358d642328276847d10c5939b)
+        ;
+
+        
+    
+    
+            marker_f06d0f566e81407e8d2108952e7e497d.bindTooltip(
+                `<div>
+                     สำนักงานเขตสาทร
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e7862a773034fb188e459b41f81237b = L.marker(
+                [13.697252, 100.497185],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d18a662d228e43f0bab8f771529372dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2e7862a773034fb188e459b41f81237b.setIcon(icon_d18a662d228e43f0bab8f771529372dd);
+        
+    
+        var popup_02b31fa4ae4a4f44a02cc394d0f4510a = L.popup({"maxWidth": 500});
+
+        
+            var html_df4c62d6cc6840fe84fb236b9c809499 = $(`<div id="html_df4c62d6cc6840fe84fb236b9c809499" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 7</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_02b31fa4ae4a4f44a02cc394d0f4510a.setContent(html_df4c62d6cc6840fe84fb236b9c809499);
+        
+
+        marker_2e7862a773034fb188e459b41f81237b.bindPopup(popup_02b31fa4ae4a4f44a02cc394d0f4510a)
+        ;
+
+        
+    
+    
+            marker_2e7862a773034fb188e459b41f81237b.bindTooltip(
+                `<div>
+                     สี่แยกถนนตก
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_757b55256b9e4b6080eb3fda7f91bf13 = L.marker(
+                [13.679226, 100.54687],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_937d39982a134aa4a71f5ffe8cd895de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_757b55256b9e4b6080eb3fda7f91bf13.setIcon(icon_937d39982a134aa4a71f5ffe8cd895de);
+        
+    
+        var popup_618977eeacab46ad93988f2799be1b3e = L.popup({"maxWidth": 500});
+
+        
+            var html_4312920e290a42668064fdf17ee8571b = $(`<div id="html_4312920e290a42668064fdf17ee8571b" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_618977eeacab46ad93988f2799be1b3e.setContent(html_4312920e290a42668064fdf17ee8571b);
+        
+
+        marker_757b55256b9e4b6080eb3fda7f91bf13.bindPopup(popup_618977eeacab46ad93988f2799be1b3e)
+        ;
+
+        
+    
+    
+            marker_757b55256b9e4b6080eb3fda7f91bf13.bindTooltip(
+                `<div>
+                     ธนาคารกรุงศรีอยุธยา สำนักงานใหญ่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b347a0321ccf4f56991d3187b2f76514 = L.marker(
+                [13.722096, 100.584559],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_9a81c13c402e4f03ac850bb8810be5fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b347a0321ccf4f56991d3187b2f76514.setIcon(icon_9a81c13c402e4f03ac850bb8810be5fc);
+        
+    
+        var popup_6d2ba868dd114dbb89dad8c69ce37429 = L.popup({"maxWidth": 500});
+
+        
+            var html_8eb3d36f32c2401498eab889c2f9fbe7 = $(`<div id="html_8eb3d36f32c2401498eab889c2f9fbe7" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_6d2ba868dd114dbb89dad8c69ce37429.setContent(html_8eb3d36f32c2401498eab889c2f9fbe7);
+        
+
+        marker_b347a0321ccf4f56991d3187b2f76514.bindPopup(popup_6d2ba868dd114dbb89dad8c69ce37429)
+        ;
+
+        
+    
+    
+            marker_b347a0321ccf4f56991d3187b2f76514.bindTooltip(
+                `<div>
+                     ริมถนนซอยสุขุมวิท 63
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1087743962f745f6b4338c4d355e457c = L.marker(
+                [13.731051, 100.651705],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_6919b9d2d4fc4a8eb814a53fe237cd57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_1087743962f745f6b4338c4d355e457c.setIcon(icon_6919b9d2d4fc4a8eb814a53fe237cd57);
+        
+    
+        var popup_719f6d37928c4862913fbbb94be03db6 = L.popup({"maxWidth": 500});
+
+        
+            var html_6148ccd65251445dbcc67639f1b48fe7 = $(`<div id="html_6148ccd65251445dbcc67639f1b48fe7" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_719f6d37928c4862913fbbb94be03db6.setContent(html_6148ccd65251445dbcc67639f1b48fe7);
+        
+
+        marker_1087743962f745f6b4338c4d355e457c.bindPopup(popup_719f6d37928c4862913fbbb94be03db6)
+        ;
+
+        
+    
+    
+            marker_1087743962f745f6b4338c4d355e457c.bindTooltip(
+                `<div>
+                     สำนักงานเขตสวนหลวง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acd94f3f4fe24e3fac092f58f4a8dd86 = L.marker(
+                [13.667987, 100.635313],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_0347071e697643c1813a9edaf341c31f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_acd94f3f4fe24e3fac092f58f4a8dd86.setIcon(icon_0347071e697643c1813a9edaf341c31f);
+        
+    
+        var popup_5e156437ba3e45fd82f86eb64e370c08 = L.popup({"maxWidth": 500});
+
+        
+            var html_d60ca31d351747519c97b6735e59e477 = $(`<div id="html_d60ca31d351747519c97b6735e59e477" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 20</h5> <h5>ค่าPM2.5 : 20 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_5e156437ba3e45fd82f86eb64e370c08.setContent(html_d60ca31d351747519c97b6735e59e477);
+        
+
+        marker_acd94f3f4fe24e3fac092f58f4a8dd86.bindPopup(popup_5e156437ba3e45fd82f86eb64e370c08)
+        ;
+
+        
+    
+    
+            marker_acd94f3f4fe24e3fac092f58f4a8dd86.bindTooltip(
+                `<div>
+                     บิ๊กซี ซุปเปอร์เซ็นเตอร์ บางนา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcfa2b4f3c6242dea70d2f04814ce0b5 = L.marker(
+                [13.839923, 100.575632],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d993e77d871844ce914b5c60b6d52bd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_dcfa2b4f3c6242dea70d2f04814ce0b5.setIcon(icon_d993e77d871844ce914b5c60b6d52bd8);
+        
+    
+        var popup_b18c6c6a66b444cf9a41d9f53c45f3e5 = L.popup({"maxWidth": 500});
+
+        
+            var html_074d6acb7d7c4f72991069f8933ef6ad = $(`<div id="html_074d6acb7d7c4f72991069f8933ef6ad" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 18 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_b18c6c6a66b444cf9a41d9f53c45f3e5.setContent(html_074d6acb7d7c4f72991069f8933ef6ad);
+        
+
+        marker_dcfa2b4f3c6242dea70d2f04814ce0b5.bindPopup(popup_b18c6c6a66b444cf9a41d9f53c45f3e5)
+        ;
+
+        
+    
+    
+            marker_dcfa2b4f3c6242dea70d2f04814ce0b5.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยเกษตรศาสตร์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_905038828609459facd4d306f026bbc7 = L.marker(
+                [13.910986, 100.594877],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_8a8d24b84b2d40a9bc3efbe872dd6acd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_905038828609459facd4d306f026bbc7.setIcon(icon_8a8d24b84b2d40a9bc3efbe872dd6acd);
+        
+    
+        var popup_8b4ef35048b74a6c89b03118684aae24 = L.popup({"maxWidth": 500});
+
+        
+            var html_8bb6df2a033544e89540e7ba058f3101 = $(`<div id="html_8bb6df2a033544e89540e7ba058f3101" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 17</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_8b4ef35048b74a6c89b03118684aae24.setContent(html_8bb6df2a033544e89540e7ba058f3101);
+        
+
+        marker_905038828609459facd4d306f026bbc7.bindPopup(popup_8b4ef35048b74a6c89b03118684aae24)
+        ;
+
+        
+    
+    
+            marker_905038828609459facd4d306f026bbc7.bindTooltip(
+                `<div>
+                     สำนักงานเขตดอนเมือง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eefb90b089a049cdba78b3a87f4cce5a = L.marker(
+                [13.896035, 100.660628],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_a3ab300bf51149d09e5ddfdae913f3ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_eefb90b089a049cdba78b3a87f4cce5a.setIcon(icon_a3ab300bf51149d09e5ddfdae913f3ca);
+        
+    
+        var popup_cbd4109b420e42b7aef98385b93b11be = L.popup({"maxWidth": 500});
+
+        
+            var html_c0672f17cb9b42faba271734e9d640cd = $(`<div id="html_c0672f17cb9b42faba271734e9d640cd" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_cbd4109b420e42b7aef98385b93b11be.setContent(html_c0672f17cb9b42faba271734e9d640cd);
+        
+
+        marker_eefb90b089a049cdba78b3a87f4cce5a.bindPopup(popup_cbd4109b420e42b7aef98385b93b11be)
+        ;
+
+        
+    
+    
+            marker_eefb90b089a049cdba78b3a87f4cce5a.bindTooltip(
+                `<div>
+                     สำนักงานเขตสายไหม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_071f85661e224544973319dc89b45ef4 = L.marker(
+                [13.766478, 100.647785],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_c237e6e648e344859047ad2062780096 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_071f85661e224544973319dc89b45ef4.setIcon(icon_c237e6e648e344859047ad2062780096);
+        
+    
+        var popup_a6b473e8a8b946c39c460ca2b67e613a = L.popup({"maxWidth": 500});
+
+        
+            var html_b68189c33a334305b4f1b7895533b0a3 = $(`<div id="html_b68189c33a334305b4f1b7895533b0a3" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 22</h5> <h5>ค่าPM2.5 : 22 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_a6b473e8a8b946c39c460ca2b67e613a.setContent(html_b68189c33a334305b4f1b7895533b0a3);
+        
+
+        marker_071f85661e224544973319dc89b45ef4.bindPopup(popup_a6b473e8a8b946c39c460ca2b67e613a)
+        ;
+
+        
+    
+    
+            marker_071f85661e224544973319dc89b45ef4.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางกะปิ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ef296ee38184e328a9b104ffebbecda = L.marker(
+                [13.799395, 100.682464],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_abb442ea8cce4ffbb0318cf154d08946 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_1ef296ee38184e328a9b104ffebbecda.setIcon(icon_abb442ea8cce4ffbb0318cf154d08946);
+        
+    
+        var popup_41f151b881e0410e95b8c72d5e3ac9e1 = L.popup({"maxWidth": 500});
+
+        
+            var html_4d52fc7d5bbf4ce5aeab43b7048d48ca = $(`<div id="html_4d52fc7d5bbf4ce5aeab43b7048d48ca" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_41f151b881e0410e95b8c72d5e3ac9e1.setContent(html_4d52fc7d5bbf4ce5aeab43b7048d48ca);
+        
+
+        marker_1ef296ee38184e328a9b104ffebbecda.bindPopup(popup_41f151b881e0410e95b8c72d5e3ac9e1)
+        ;
+
+        
+    
+    
+            marker_1ef296ee38184e328a9b104ffebbecda.bindTooltip(
+                `<div>
+                     แยกสวนสยาม-รามอินทรา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8eff76e11f87409aac2093fd705477f5 = L.marker(
+                [13.72205, 100.784069],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_993325df38554c3f9b9ed4b8239f78f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8eff76e11f87409aac2093fd705477f5.setIcon(icon_993325df38554c3f9b9ed4b8239f78f1);
+        
+    
+        var popup_c74c99c151094f608b14a41b805998dc = L.popup({"maxWidth": 500});
+
+        
+            var html_0634812bd86a4e2f8bf99d086086fbc0 = $(`<div id="html_0634812bd86a4e2f8bf99d086086fbc0" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_c74c99c151094f608b14a41b805998dc.setContent(html_0634812bd86a4e2f8bf99d086086fbc0);
+        
+
+        marker_8eff76e11f87409aac2093fd705477f5.bindPopup(popup_c74c99c151094f608b14a41b805998dc)
+        ;
+
+        
+    
+    
+            marker_8eff76e11f87409aac2093fd705477f5.bindTooltip(
+                `<div>
+                     โรงพยาบาลลาดกระบัง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83ebb0c2d7e846a393ecebf8d1944f25 = L.marker(
+                [13.813578, 100.73208],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_efd639de91204af0835b0bc9d8ba8a48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_83ebb0c2d7e846a393ecebf8d1944f25.setIcon(icon_efd639de91204af0835b0bc9d8ba8a48);
+        
+    
+        var popup_d97648e54c99445b87b49977db329a2b = L.popup({"maxWidth": 500});
+
+        
+            var html_3a02293562a0434eb5786148fd30d05b = $(`<div id="html_3a02293562a0434eb5786148fd30d05b" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_d97648e54c99445b87b49977db329a2b.setContent(html_3a02293562a0434eb5786148fd30d05b);
+        
+
+        marker_83ebb0c2d7e846a393ecebf8d1944f25.bindPopup(popup_d97648e54c99445b87b49977db329a2b)
+        ;
+
+        
+    
+    
+            marker_83ebb0c2d7e846a393ecebf8d1944f25.bindTooltip(
+                `<div>
+                     สวนเฉลิมพระเกียรติ ร.9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d12042a26c2f44d09ce927d3e520665a = L.marker(
+                [13.855362, 100.86267],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_43a47e0e971c40bd9af79dadb5f15bf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_d12042a26c2f44d09ce927d3e520665a.setIcon(icon_43a47e0e971c40bd9af79dadb5f15bf1);
+        
+    
+        var popup_4fbd1cc3c3ac4c8289de466b337a3bc7 = L.popup({"maxWidth": 500});
+
+        
+            var html_1ba315bd4eb34275a593828910ab12d4 = $(`<div id="html_1ba315bd4eb34275a593828910ab12d4" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 23</h5> <h5>ค่าPM2.5 : 17 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_4fbd1cc3c3ac4c8289de466b337a3bc7.setContent(html_1ba315bd4eb34275a593828910ab12d4);
+        
+
+        marker_d12042a26c2f44d09ce927d3e520665a.bindPopup(popup_4fbd1cc3c3ac4c8289de466b337a3bc7)
+        ;
+
+        
+    
+    
+            marker_d12042a26c2f44d09ce927d3e520665a.bindTooltip(
+                `<div>
+                     สำนักงานเขตหนองจอก
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b51d108104b48869ee4af773c7a4021 = L.marker(
+                [13.695561, 100.647615],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d5992b18159b4053939a6a7ebfb800cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6b51d108104b48869ee4af773c7a4021.setIcon(icon_d5992b18159b4053939a6a7ebfb800cb);
+        
+    
+        var popup_f8c993f120d945839e0c81a1f831a0cb = L.popup({"maxWidth": 500});
+
+        
+            var html_d737a2ca89714d88abe722fe2f0e72a0 = $(`<div id="html_d737a2ca89714d88abe722fe2f0e72a0" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 22</h5> <h5>ค่าPM2.5 : 20 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_f8c993f120d945839e0c81a1f831a0cb.setContent(html_d737a2ca89714d88abe722fe2f0e72a0);
+        
+
+        marker_6b51d108104b48869ee4af773c7a4021.bindPopup(popup_f8c993f120d945839e0c81a1f831a0cb)
+        ;
+
+        
+    
+    
+            marker_6b51d108104b48869ee4af773c7a4021.bindTooltip(
+                `<div>
+                     ซีคอน สแควร์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc2fe3ea4b7f4fa1b4f979e0020563d2 = L.marker(
+                [13.70515, 100.48465],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3385c99b81904b9792854af3ac2557e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_bc2fe3ea4b7f4fa1b4f979e0020563d2.setIcon(icon_3385c99b81904b9792854af3ac2557e0);
+        
+    
+        var popup_97277c3b98e24e968ae64731611e1442 = L.popup({"maxWidth": 500});
+
+        
+            var html_f8f214dd4ce7452cb3c9d245c82faded = $(`<div id="html_f8f214dd4ce7452cb3c9d245c82faded" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_97277c3b98e24e968ae64731611e1442.setContent(html_f8f214dd4ce7452cb3c9d245c82faded);
+        
+
+        marker_bc2fe3ea4b7f4fa1b4f979e0020563d2.bindPopup(popup_97277c3b98e24e968ae64731611e1442)
+        ;
+
+        
+    
+    
+            marker_bc2fe3ea4b7f4fa1b4f979e0020563d2.bindTooltip(
+                `<div>
+                     แยกมไหศวรรย์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b50d1e0baa1a47a3873471e6b001042a = L.marker(
+                [13.719705, 100.508782],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_05c9504376c8452581376351f4818c29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b50d1e0baa1a47a3873471e6b001042a.setIcon(icon_05c9504376c8452581376351f4818c29);
+        
+    
+        var popup_b408cef1125e465c8432d330aa25600a = L.popup({"maxWidth": 500});
+
+        
+            var html_9f21c23e9a6b4bc8a4d5a01fa985f1bf = $(`<div id="html_9f21c23e9a6b4bc8a4d5a01fa985f1bf" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 16 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_b408cef1125e465c8432d330aa25600a.setContent(html_9f21c23e9a6b4bc8a4d5a01fa985f1bf);
+        
+
+        marker_b50d1e0baa1a47a3873471e6b001042a.bindPopup(popup_b408cef1125e465c8432d330aa25600a)
+        ;
+
+        
+    
+    
+            marker_b50d1e0baa1a47a3873471e6b001042a.bindTooltip(
+                `<div>
+                     ห้องสมุดใต้สะพานสมเด็จพระเจ้าตากสิน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a4757b125b94e3398a48d980e3ea09c = L.marker(
+                [13.729431, 100.474373],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_ac17695407b0455aa514833cf83526b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8a4757b125b94e3398a48d980e3ea09c.setIcon(icon_ac17695407b0455aa514833cf83526b8);
+        
+    
+        var popup_33057e7ef1ab4210ab53d51ca99d5c19 = L.popup({"maxWidth": 500});
+
+        
+            var html_4d8499de9baf4cb99a95faae7b3decb4 = $(`<div id="html_4d8499de9baf4cb99a95faae7b3decb4" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 22</h5> <h5>ค่าPM2.5 : 22 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_33057e7ef1ab4210ab53d51ca99d5c19.setContent(html_4d8499de9baf4cb99a95faae7b3decb4);
+        
+
+        marker_8a4757b125b94e3398a48d980e3ea09c.bindPopup(popup_33057e7ef1ab4210ab53d51ca99d5c19)
+        ;
+
+        
+    
+    
+            marker_8a4757b125b94e3398a48d980e3ea09c.bindTooltip(
+                `<div>
+                     สี่แยกท่าพระ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8dd9dd04f4c4f2facb6a1ecdfa41215 = L.marker(
+                [13.759619, 100.481137],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_24563a22072b4abdb244fe418a1cfaec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_a8dd9dd04f4c4f2facb6a1ecdfa41215.setIcon(icon_24563a22072b4abdb244fe418a1cfaec);
+        
+    
+        var popup_98d659ce59694c6183e8fe1da7ede033 = L.popup({"maxWidth": 500});
+
+        
+            var html_e5e264d6f0a34fa5980218b215305251 = $(`<div id="html_e5e264d6f0a34fa5980218b215305251" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 7</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_98d659ce59694c6183e8fe1da7ede033.setContent(html_e5e264d6f0a34fa5980218b215305251);
+        
+
+        marker_a8dd9dd04f4c4f2facb6a1ecdfa41215.bindPopup(popup_98d659ce59694c6183e8fe1da7ede033)
+        ;
+
+        
+    
+    
+            marker_a8dd9dd04f4c4f2facb6a1ecdfa41215.bindTooltip(
+                `<div>
+                     สถานีตำรวจรถไฟบางกอกน้อย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d115e42cc32b4161ab882657c27121f3 = L.marker(
+                [13.780778, 100.426727],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3ceee009d4eb4563b2a6841e71d32003 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d115e42cc32b4161ab882657c27121f3.setIcon(icon_3ceee009d4eb4563b2a6841e71d32003);
+        
+    
+        var popup_852bed411e424cb09bbf9c85e406e3e6 = L.popup({"maxWidth": 500});
+
+        
+            var html_e669584147b24a22b2c4cdd614e2f9d9 = $(`<div id="html_e669584147b24a22b2c4cdd614e2f9d9" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : -1</h5> <h5>ค่าPM2.5 : - µg/m³</h5> <b>ระดับความรุนเเรง : 0</b></div>`)[0];
+            popup_852bed411e424cb09bbf9c85e406e3e6.setContent(html_e669584147b24a22b2c4cdd614e2f9d9);
+        
+
+        marker_d115e42cc32b4161ab882657c27121f3.bindPopup(popup_852bed411e424cb09bbf9c85e406e3e6)
+        ;
+
+        
+    
+    
+            marker_d115e42cc32b4161ab882657c27121f3.bindTooltip(
+                `<div>
+                     ถนนพุทธมณฑลสาย 1 ตัดกับถนนบรมราชชนนี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b7329ca39e146f3bcd13ddbd34f9acb = L.marker(
+                [13.746257, 100.355099],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_572a17fcb55d437e987ed594dd10448c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2b7329ca39e146f3bcd13ddbd34f9acb.setIcon(icon_572a17fcb55d437e987ed594dd10448c);
+        
+    
+        var popup_581ca34f74c8498994cf2719cf24f5c4 = L.popup({"maxWidth": 500});
+
+        
+            var html_227e534f1e494a738a516adac0857f99 = $(`<div id="html_227e534f1e494a738a516adac0857f99" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 10</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_581ca34f74c8498994cf2719cf24f5c4.setContent(html_227e534f1e494a738a516adac0857f99);
+        
+
+        marker_2b7329ca39e146f3bcd13ddbd34f9acb.bindPopup(popup_581ca34f74c8498994cf2719cf24f5c4)
+        ;
+
+        
+    
+    
+            marker_2b7329ca39e146f3bcd13ddbd34f9acb.bindTooltip(
+                `<div>
+                     ตลาดธนบุรีสนามหลวง 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_549afb0c4ae645c5a73a6e95fd728a7c = L.marker(
+                [13.718689, 100.45391],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_9bb5368bd04745e58bf5be022db60848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_549afb0c4ae645c5a73a6e95fd728a7c.setIcon(icon_9bb5368bd04745e58bf5be022db60848);
+        
+    
+        var popup_61b0864679b64ba59daf509a864174ef = L.popup({"maxWidth": 500});
+
+        
+            var html_2cb349d6d60b4c639485938b0d014f40 = $(`<div id="html_2cb349d6d60b4c639485938b0d014f40" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 9</h5> <h5>ค่าPM2.5 : 9 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_61b0864679b64ba59daf509a864174ef.setContent(html_2cb349d6d60b4c639485938b0d014f40);
+        
+
+        marker_549afb0c4ae645c5a73a6e95fd728a7c.bindPopup(popup_61b0864679b64ba59daf509a864174ef)
+        ;
+
+        
+    
+    
+            marker_549afb0c4ae645c5a73a6e95fd728a7c.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยสยาม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_119b257e3e674d82a8c291783ab90be0 = L.marker(
+                [13.705582, 100.343164],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_466437a31a3d40289b04c5c3a96fb8be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_119b257e3e674d82a8c291783ab90be0.setIcon(icon_466437a31a3d40289b04c5c3a96fb8be);
+        
+    
+        var popup_ab437ca645df40008bdb3b4adc7a701c = L.popup({"maxWidth": 500});
+
+        
+            var html_14f870f665e04e35af608fe5d942465a = $(`<div id="html_14f870f665e04e35af608fe5d942465a" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 18 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_ab437ca645df40008bdb3b4adc7a701c.setContent(html_14f870f665e04e35af608fe5d942465a);
+        
+
+        marker_119b257e3e674d82a8c291783ab90be0.bindPopup(popup_ab437ca645df40008bdb3b4adc7a701c)
+        ;
+
+        
+    
+    
+            marker_119b257e3e674d82a8c291783ab90be0.bindTooltip(
+                `<div>
+                     ริมถนนมาเจริญ เพชรเกษม 8, เขตหนองแขม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afab8abde97945028830c87320771847 = L.marker(
+                [13.639165, 100.372958],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_b65e4a3650774d76889911e723f0d797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_afab8abde97945028830c87320771847.setIcon(icon_b65e4a3650774d76889911e723f0d797);
+        
+    
+        var popup_0ce3c237246f4a6cb16fa7ca0cd07ebb = L.popup({"maxWidth": 500});
+
+        
+            var html_391ef6935c494f26be902e516c4870e4 = $(`<div id="html_391ef6935c494f26be902e516c4870e4" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_0ce3c237246f4a6cb16fa7ca0cd07ebb.setContent(html_391ef6935c494f26be902e516c4870e4);
+        
+
+        marker_afab8abde97945028830c87320771847.bindPopup(popup_0ce3c237246f4a6cb16fa7ca0cd07ebb)
+        ;
+
+        
+    
+    
+            marker_afab8abde97945028830c87320771847.bindTooltip(
+                `<div>
+                     ตลาดบางบอน 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5c2f970fab1407995e9cb699197d252 = L.marker(
+                [13.651004, 100.496673],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_cbfe412131964efa8ae688fe8e407c92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_c5c2f970fab1407995e9cb699197d252.setIcon(icon_cbfe412131964efa8ae688fe8e407c92);
+        
+    
+        var popup_23c542b6fa5c4426a5b7d7348922bb6c = L.popup({"maxWidth": 500});
+
+        
+            var html_938524ec30ef43d6849e4d437b287265 = $(`<div id="html_938524ec30ef43d6849e4d437b287265" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_23c542b6fa5c4426a5b7d7348922bb6c.setContent(html_938524ec30ef43d6849e4d437b287265);
+        
+
+        marker_c5c2f970fab1407995e9cb699197d252.bindPopup(popup_23c542b6fa5c4426a5b7d7348922bb6c)
+        ;
+
+        
+    
+    
+            marker_c5c2f970fab1407995e9cb699197d252.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac294dcb69e04f5c927eb76a2a784d77 = L.marker(
+                [13.76415, 100.499077],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_656bcb14a8c74d8db5dabeb371eec240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ac294dcb69e04f5c927eb76a2a784d77.setIcon(icon_656bcb14a8c74d8db5dabeb371eec240);
+        
+    
+        var popup_6b2a70431a8a453f9e88c864e8ce954c = L.popup({"maxWidth": 500});
+
+        
+            var html_33efa220ce1242ba8d75f8227168b30c = $(`<div id="html_33efa220ce1242ba8d75f8227168b30c" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 16 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_6b2a70431a8a453f9e88c864e8ce954c.setContent(html_33efa220ce1242ba8d75f8227168b30c);
+        
+
+        marker_ac294dcb69e04f5c927eb76a2a784d77.bindPopup(popup_6b2a70431a8a453f9e88c864e8ce954c)
+        ;
+
+        
+    
+    
+            marker_ac294dcb69e04f5c927eb76a2a784d77.bindTooltip(
+                `<div>
+                     สำนักงานเขตพระนคร
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60b0a71a3ca349fb8416efac6b0393ec = L.marker(
+                [13.77682, 100.579543],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_ff3097cde558429288cf8e3509c2f22c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_60b0a71a3ca349fb8416efac6b0393ec.setIcon(icon_ff3097cde558429288cf8e3509c2f22c);
+        
+    
+        var popup_9e2b3719792a4227ba92014b812f7d4e = L.popup({"maxWidth": 500});
+
+        
+            var html_0e218ebb12104b0d86ff1a0714e9e1ea = $(`<div id="html_0e218ebb12104b0d86ff1a0714e9e1ea" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_9e2b3719792a4227ba92014b812f7d4e.setContent(html_0e218ebb12104b0d86ff1a0714e9e1ea);
+        
+
+        marker_60b0a71a3ca349fb8416efac6b0393ec.bindPopup(popup_9e2b3719792a4227ba92014b812f7d4e)
+        ;
+
+        
+    
+    
+            marker_60b0a71a3ca349fb8416efac6b0393ec.bindTooltip(
+                `<div>
+                     สำนักงานเขตห้วยขวาง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35ac3ad95b644ecf81e30ed42cf1a49c = L.marker(
+                [13.708488, 100.583747],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_1f570295679b4882b14a00105d20c4e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_35ac3ad95b644ecf81e30ed42cf1a49c.setIcon(icon_1f570295679b4882b14a00105d20c4e4);
+        
+    
+        var popup_c4fcfcd43126415585a7f50f37391043 = L.popup({"maxWidth": 500});
+
+        
+            var html_5305b5558cfd4b479aa2d71fe92f44f9 = $(`<div id="html_5305b5558cfd4b479aa2d71fe92f44f9" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 16 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_c4fcfcd43126415585a7f50f37391043.setContent(html_5305b5558cfd4b479aa2d71fe92f44f9);
+        
+
+        marker_35ac3ad95b644ecf81e30ed42cf1a49c.bindPopup(popup_c4fcfcd43126415585a7f50f37391043)
+        ;
+
+        
+    
+    
+            marker_35ac3ad95b644ecf81e30ed42cf1a49c.bindTooltip(
+                `<div>
+                     สำนักงานเขตคลองเตย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8589401671da463c9810f43f0bb5fe8e = L.marker(
+                [13.809596, 100.537883],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_1876909b7cca4825a5ccc2b8d9c9f8f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8589401671da463c9810f43f0bb5fe8e.setIcon(icon_1876909b7cca4825a5ccc2b8d9c9f8f3);
+        
+    
+        var popup_7c79633fdefa4197ab8a6e53a4c76fe4 = L.popup({"maxWidth": 500});
+
+        
+            var html_f4f588c838984f51a98642aebdcc5df1 = $(`<div id="html_f4f588c838984f51a98642aebdcc5df1" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_7c79633fdefa4197ab8a6e53a4c76fe4.setContent(html_f4f588c838984f51a98642aebdcc5df1);
+        
+
+        marker_8589401671da463c9810f43f0bb5fe8e.bindPopup(popup_7c79633fdefa4197ab8a6e53a4c76fe4)
+        ;
+
+        
+    
+    
+            marker_8589401671da463c9810f43f0bb5fe8e.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางซื่อ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_119a72eb6dd3463d84a507b116f77a22 = L.marker(
+                [13.803587, 100.607535],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3b933ac711ec4bd0ac0eddf7395b3f33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_119a72eb6dd3463d84a507b116f77a22.setIcon(icon_3b933ac711ec4bd0ac0eddf7395b3f33);
+        
+    
+        var popup_2e13ea04416643c783c5c282bb646223 = L.popup({"maxWidth": 500});
+
+        
+            var html_b775739fbb0445c18874331c3383d8b5 = $(`<div id="html_b775739fbb0445c18874331c3383d8b5" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_2e13ea04416643c783c5c282bb646223.setContent(html_b775739fbb0445c18874331c3383d8b5);
+        
+
+        marker_119a72eb6dd3463d84a507b116f77a22.bindPopup(popup_2e13ea04416643c783c5c282bb646223)
+        ;
+
+        
+    
+    
+            marker_119a72eb6dd3463d84a507b116f77a22.bindTooltip(
+                `<div>
+                     สำนักงานเขตลาดพร้าว
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8706cbab00a946e8ac542d2cd39d66ea = L.marker(
+                [13.887395, 100.579247],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_9105da9c28b6410f8c5a88be934d7cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8706cbab00a946e8ac542d2cd39d66ea.setIcon(icon_9105da9c28b6410f8c5a88be934d7cbb);
+        
+    
+        var popup_eb98e33d66b445e4b643ba75cd148564 = L.popup({"maxWidth": 500});
+
+        
+            var html_93569c6337fe4c1d9b9c326dd66518ce = $(`<div id="html_93569c6337fe4c1d9b9c326dd66518ce" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_eb98e33d66b445e4b643ba75cd148564.setContent(html_93569c6337fe4c1d9b9c326dd66518ce);
+        
+
+        marker_8706cbab00a946e8ac542d2cd39d66ea.bindPopup(popup_eb98e33d66b445e4b643ba75cd148564)
+        ;
+
+        
+    
+    
+            marker_8706cbab00a946e8ac542d2cd39d66ea.bindTooltip(
+                `<div>
+                     สำนักงานเขตหลักสี่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_090636ec26e14ff486458e6fc94a42b5 = L.marker(
+                [13.873603, 100.595839],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_ba975b2d88454c889a3f5433d4ee6874 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_090636ec26e14ff486458e6fc94a42b5.setIcon(icon_ba975b2d88454c889a3f5433d4ee6874);
+        
+    
+        var popup_82c7896b42984a5dad439a3e7e7257d0 = L.popup({"maxWidth": 500});
+
+        
+            var html_739d6e25224345fea8f44937b6107497 = $(`<div id="html_739d6e25224345fea8f44937b6107497" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_82c7896b42984a5dad439a3e7e7257d0.setContent(html_739d6e25224345fea8f44937b6107497);
+        
+
+        marker_090636ec26e14ff486458e6fc94a42b5.bindPopup(popup_82c7896b42984a5dad439a3e7e7257d0)
+        ;
+
+        
+    
+    
+            marker_090636ec26e14ff486458e6fc94a42b5.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางเขน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e23de3049a84f4fb861a11e5b480b53 = L.marker(
+                [13.768892, 100.685743],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3501390b323e4e0ba27b738539a4e734 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_3e23de3049a84f4fb861a11e5b480b53.setIcon(icon_3501390b323e4e0ba27b738539a4e734);
+        
+    
+        var popup_d40dab58b8854e1db84ed53c2682d8e2 = L.popup({"maxWidth": 500});
+
+        
+            var html_f33d5ebf822a45fcb4d37c3309e24ffe = $(`<div id="html_f33d5ebf822a45fcb4d37c3309e24ffe" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_d40dab58b8854e1db84ed53c2682d8e2.setContent(html_f33d5ebf822a45fcb4d37c3309e24ffe);
+        
+
+        marker_3e23de3049a84f4fb861a11e5b480b53.bindPopup(popup_d40dab58b8854e1db84ed53c2682d8e2)
+        ;
+
+        
+    
+    
+            marker_3e23de3049a84f4fb861a11e5b480b53.bindTooltip(
+                `<div>
+                     สำนักงานเขตสะพานสูง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e4bfece2cf545b2b4477c41467903e4 = L.marker(
+                [13.672332, 100.698602],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_bd2f9573e81c4f87b4cf75f2d2d9fdb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_5e4bfece2cf545b2b4477c41467903e4.setIcon(icon_bd2f9573e81c4f87b4cf75f2d2d9fdb9);
+        
+    
+        var popup_f3ae612fb7124424bd77977c9b1e4608 = L.popup({"maxWidth": 500});
+
+        
+            var html_36ae3a8b1a0c43beac2849c06e1a567c = $(`<div id="html_36ae3a8b1a0c43beac2849c06e1a567c" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 10</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_f3ae612fb7124424bd77977c9b1e4608.setContent(html_36ae3a8b1a0c43beac2849c06e1a567c);
+        
+
+        marker_5e4bfece2cf545b2b4477c41467903e4.bindPopup(popup_f3ae612fb7124424bd77977c9b1e4608)
+        ;
+
+        
+    
+    
+            marker_5e4bfece2cf545b2b4477c41467903e4.bindTooltip(
+                `<div>
+                     หมู่บ้านแกรนด์โมนาโค
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79404da7c2054a689c7ef192b3771d4a = L.marker(
+                [13.702383, 100.698808],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_fc269ceb2c7f4b0fb9cf878d59ac329e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_79404da7c2054a689c7ef192b3771d4a.setIcon(icon_fc269ceb2c7f4b0fb9cf878d59ac329e);
+        
+    
+        var popup_1e4ea391d70140258cedd1f830299bb4 = L.popup({"maxWidth": 500});
+
+        
+            var html_ebca5c0b42f948cbbcddad4da5a5223e = $(`<div id="html_ebca5c0b42f948cbbcddad4da5a5223e" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_1e4ea391d70140258cedd1f830299bb4.setContent(html_ebca5c0b42f948cbbcddad4da5a5223e);
+        
+
+        marker_79404da7c2054a689c7ef192b3771d4a.bindPopup(popup_1e4ea391d70140258cedd1f830299bb4)
+        ;
+
+        
+    
+    
+            marker_79404da7c2054a689c7ef192b3771d4a.bindTooltip(
+                `<div>
+                     หมู่บ้านลลิน กรีนวิลล์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce41c12dbdbb4d91907512a46e32a879 = L.marker(
+                [14.022376, 99.536195],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_dfc29ff302124e7e9aefc9c0d943b8bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ce41c12dbdbb4d91907512a46e32a879.setIcon(icon_dfc29ff302124e7e9aefc9c0d943b8bd);
+        
+    
+        var popup_c5d7776a4eaa49b8a4f6b9ac1d50d3fd = L.popup({"maxWidth": 500});
+
+        
+            var html_147f70e3296d4a5d812454254a3d96e6 = $(`<div id="html_147f70e3296d4a5d812454254a3d96e6" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_c5d7776a4eaa49b8a4f6b9ac1d50d3fd.setContent(html_147f70e3296d4a5d812454254a3d96e6);
+        
+
+        marker_ce41c12dbdbb4d91907512a46e32a879.bindPopup(popup_c5d7776a4eaa49b8a4f6b9ac1d50d3fd)
+        ;
+
+        
+    
+    
+            marker_ce41c12dbdbb4d91907512a46e32a879.bindTooltip(
+                `<div>
+                     สถานีอุตุนิยมวิทยา จ.กาญจนบุรี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5a573456ef04384bbb3a30478ae405d = L.marker(
+                [16.445329, 102.835251],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_de7fbbed427b42c0a51fde0c98073bca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_d5a573456ef04384bbb3a30478ae405d.setIcon(icon_de7fbbed427b42c0a51fde0c98073bca);
+        
+    
+        var popup_c32d3ae05ef042169e0067566e879a84 = L.popup({"maxWidth": 500});
+
+        
+            var html_f9d050b5d2c34f63a21b0e39a75c8890 = $(`<div id="html_f9d050b5d2c34f63a21b0e39a75c8890" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 22</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_c32d3ae05ef042169e0067566e879a84.setContent(html_f9d050b5d2c34f63a21b0e39a75c8890);
+        
+
+        marker_d5a573456ef04384bbb3a30478ae405d.bindPopup(popup_c32d3ae05ef042169e0067566e879a84)
+        ;
+
+        
+    
+    
+            marker_d5a573456ef04384bbb3a30478ae405d.bindTooltip(
+                `<div>
+                     ส่วนอุทกวิทยา สำนักงานทรัพยากรน้ำภาคที่4 ขอนแก่น
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5534ff4f3124bc8ba019aa3edb1caf8 = L.marker(
+                [13.588554, 101.286359],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_12524970463441ca8096714a5285e177 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f5534ff4f3124bc8ba019aa3edb1caf8.setIcon(icon_12524970463441ca8096714a5285e177);
+        
+    
+        var popup_bb86957212d54d82af320d04cce7ee63 = L.popup({"maxWidth": 500});
+
+        
+            var html_0ab707cebb504a0588ee9de5a17f7d1f = $(`<div id="html_0ab707cebb504a0588ee9de5a17f7d1f" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_bb86957212d54d82af320d04cce7ee63.setContent(html_0ab707cebb504a0588ee9de5a17f7d1f);
+        
+
+        marker_f5534ff4f3124bc8ba019aa3edb1caf8.bindPopup(popup_bb86957212d54d82af320d04cce7ee63)
+        ;
+
+        
+    
+    
+            marker_f5534ff4f3124bc8ba019aa3edb1caf8.bindTooltip(
+                `<div>
+                     สำนักงานเทศบาลตำบลทุ่งสะเดา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b911102f45dd4da194c1673204304783 = L.marker(
+                [13.119214, 100.918596],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_4f4521c9bb7440649efb765b7712a601 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b911102f45dd4da194c1673204304783.setIcon(icon_4f4521c9bb7440649efb765b7712a601);
+        
+    
+        var popup_3d2a2b92dd434a418bc31d4326a85fbb = L.popup({"maxWidth": 500});
+
+        
+            var html_58d5e989758f4715a96f3950772e5e7b = $(`<div id="html_58d5e989758f4715a96f3950772e5e7b" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_3d2a2b92dd434a418bc31d4326a85fbb.setContent(html_58d5e989758f4715a96f3950772e5e7b);
+        
+
+        marker_b911102f45dd4da194c1673204304783.bindPopup(popup_3d2a2b92dd434a418bc31d4326a85fbb)
+        ;
+
+        
+    
+    
+            marker_b911102f45dd4da194c1673204304783.bindTooltip(
+                `<div>
+                     สนามกีฬาเทศบาลแหลมฉบัง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f3d8485490940d98ec5710be1bd28de = L.marker(
+                [13.054551, 101.098128],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_2c60956ab7384e2ab544bbfa2bc51acb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_5f3d8485490940d98ec5710be1bd28de.setIcon(icon_2c60956ab7384e2ab544bbfa2bc51acb);
+        
+    
+        var popup_4c63089e4215455398ca45433ed60006 = L.popup({"maxWidth": 500});
+
+        
+            var html_6d2d72eaa62e43258d76df42f9772516 = $(`<div id="html_6d2d72eaa62e43258d76df42f9772516" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 24</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_4c63089e4215455398ca45433ed60006.setContent(html_6d2d72eaa62e43258d76df42f9772516);
+        
+
+        marker_5f3d8485490940d98ec5710be1bd28de.bindPopup(popup_4c63089e4215455398ca45433ed60006)
+        ;
+
+        
+    
+    
+            marker_5f3d8485490940d98ec5710be1bd28de.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลบ้านเขาหิน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e5c9e3d603e4446af2a110ad7855e43 = L.marker(
+                [13.355065, 100.977777],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_a9fb712acb994211b5a4a563ea0890e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2e5c9e3d603e4446af2a110ad7855e43.setIcon(icon_a9fb712acb994211b5a4a563ea0890e9);
+        
+    
+        var popup_d9c4653027824504a4d70e3bd0e95c0d = L.popup({"maxWidth": 500});
+
+        
+            var html_0f12ac6280ce4fe7b36032694a27554e = $(`<div id="html_0f12ac6280ce4fe7b36032694a27554e" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 20</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_d9c4653027824504a4d70e3bd0e95c0d.setContent(html_0f12ac6280ce4fe7b36032694a27554e);
+        
+
+        marker_2e5c9e3d603e4446af2a110ad7855e43.bindPopup(popup_d9c4653027824504a4d70e3bd0e95c0d)
+        ;
+
+        
+    
+    
+            marker_2e5c9e3d603e4446af2a110ad7855e43.bindTooltip(
+                `<div>
+                     สำนักงานสิ่งแวดล้อมภาคที่ 13 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a1c28392a6e4bc8aff7fff48777e764 = L.marker(
+                [7.570238, 99.588743],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_4c48b63bfe0c486f86cecfb6696e5cd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2a1c28392a6e4bc8aff7fff48777e764.setIcon(icon_4c48b63bfe0c486f86cecfb6696e5cd1);
+        
+    
+        var popup_7bd9ca3254a343928776c9b3f10d142a = L.popup({"maxWidth": 500});
+
+        
+            var html_489e797da02847d2ab7336e99de93979 = $(`<div id="html_489e797da02847d2ab7336e99de93979" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_7bd9ca3254a343928776c9b3f10d142a.setContent(html_489e797da02847d2ab7336e99de93979);
+        
+
+        marker_2a1c28392a6e4bc8aff7fff48777e764.bindPopup(popup_7bd9ca3254a343928776c9b3f10d142a)
+        ;
+
+        
+    
+    
+            marker_2a1c28392a6e4bc8aff7fff48777e764.bindTooltip(
+                `<div>
+                     วิทยาลัยสารพัดช่างตรัง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2734d4adae8468cbb87edd36b2b0770 = L.marker(
+                [12.234862, 102.523721],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_2aee23d771134683814c4ef551d3bda0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f2734d4adae8468cbb87edd36b2b0770.setIcon(icon_2aee23d771134683814c4ef551d3bda0);
+        
+    
+        var popup_dfb32fe421e04f578d18d756d3db170c = L.popup({"maxWidth": 500});
+
+        
+            var html_9f8112dbfb7b4b96b882cef216972281 = $(`<div id="html_9f8112dbfb7b4b96b882cef216972281" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 2 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_dfb32fe421e04f578d18d756d3db170c.setContent(html_9f8112dbfb7b4b96b882cef216972281);
+        
+
+        marker_f2734d4adae8468cbb87edd36b2b0770.bindPopup(popup_dfb32fe421e04f578d18d756d3db170c)
+        ;
+
+        
+    
+    
+            marker_f2734d4adae8468cbb87edd36b2b0770.bindTooltip(
+                `<div>
+                     สนามกีฬากลางจังหวัดตราด
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ca04d37b8e64be3ab083c2932f643b3 = L.marker(
+                [16.750102, 98.591312],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_7bf431a5d3fd4aaaa8e8aeb95f97c7db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_4ca04d37b8e64be3ab083c2932f643b3.setIcon(icon_7bf431a5d3fd4aaaa8e8aeb95f97c7db);
+        
+    
+        var popup_24ec8cb7a9214bac865647060406777a = L.popup({"maxWidth": 500});
+
+        
+            var html_e679476193614a75b240a78c7b9f4dda = $(`<div id="html_e679476193614a75b240a78c7b9f4dda" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_24ec8cb7a9214bac865647060406777a.setContent(html_e679476193614a75b240a78c7b9f4dda);
+        
+
+        marker_4ca04d37b8e64be3ab083c2932f643b3.bindPopup(popup_24ec8cb7a9214bac865647060406777a)
+        ;
+
+        
+    
+    
+            marker_4ca04d37b8e64be3ab083c2932f643b3.bindTooltip(
+                `<div>
+                     ศูนย์การศึกษานอกโรงเรียน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36dc70daa56f473389f9d44d82ba3a40 = L.marker(
+                [13.832076, 100.057961],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_c3882f8b615a49798de686927dd83edf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_36dc70daa56f473389f9d44d82ba3a40.setIcon(icon_c3882f8b615a49798de686927dd83edf);
+        
+    
+        var popup_6e903c0e861f4a66903bec1784dec0c8 = L.popup({"maxWidth": 500});
+
+        
+            var html_1b4fd7440e014df197488250b0fee8b2 = $(`<div id="html_1b4fd7440e014df197488250b0fee8b2" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 23</h5> <h5>ค่าPM2.5 : 9 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_6e903c0e861f4a66903bec1784dec0c8.setContent(html_1b4fd7440e014df197488250b0fee8b2);
+        
+
+        marker_36dc70daa56f473389f9d44d82ba3a40.bindPopup(popup_6e903c0e861f4a66903bec1784dec0c8)
+        ;
+
+        
+    
+    
+            marker_36dc70daa56f473389f9d44d82ba3a40.bindTooltip(
+                `<div>
+                     อ่างเก็บน้ำประปา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f988aaca1b74188b0313b655e9e5c7c = L.marker(
+                [17.412345, 104.7786123],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_9314a9a7d3b8444eb6efc5945643f44d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_3f988aaca1b74188b0313b655e9e5c7c.setIcon(icon_9314a9a7d3b8444eb6efc5945643f44d);
+        
+    
+        var popup_0731dd4697914bbf9204a1885bccdebc = L.popup({"maxWidth": 500});
+
+        
+            var html_e2141f30c7894f5981bce75e18212394 = $(`<div id="html_e2141f30c7894f5981bce75e18212394" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_0731dd4697914bbf9204a1885bccdebc.setContent(html_e2141f30c7894f5981bce75e18212394);
+        
+
+        marker_3f988aaca1b74188b0313b655e9e5c7c.bindPopup(popup_0731dd4697914bbf9204a1885bccdebc)
+        ;
+
+        
+    
+    
+            marker_3f988aaca1b74188b0313b655e9e5c7c.bindTooltip(
+                `<div>
+                     สถานีอุตุนิยมวิทยานครพนม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_828588e4a0c74e3d8d37b86d6d789a2d = L.marker(
+                [14.979726, 102.098301],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_89634274a7434f89a8a61cd2a3f98f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_828588e4a0c74e3d8d37b86d6d789a2d.setIcon(icon_89634274a7434f89a8a61cd2a3f98f63);
+        
+    
+        var popup_27686689aad747b69fbfaf51c0a27f30 = L.popup({"maxWidth": 500});
+
+        
+            var html_12359862ade946cab3efa73fe03b6c85 = $(`<div id="html_12359862ade946cab3efa73fe03b6c85" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_27686689aad747b69fbfaf51c0a27f30.setContent(html_12359862ade946cab3efa73fe03b6c85);
+        
+
+        marker_828588e4a0c74e3d8d37b86d6d789a2d.bindPopup(popup_27686689aad747b69fbfaf51c0a27f30)
+        ;
+
+        
+    
+    
+            marker_828588e4a0c74e3d8d37b86d6d789a2d.bindTooltip(
+                `<div>
+                     สถานีสูบน้ำประตูพลแสน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_899c5e7afeab4fe0a3f7c8394289a2d3 = L.marker(
+                [8.426923, 99.961469],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_c94046f739554c1ebd7fc084e16a0658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_899c5e7afeab4fe0a3f7c8394289a2d3.setIcon(icon_c94046f739554c1ebd7fc084e16a0658);
+        
+    
+        var popup_1809994975e9419ca35fb0cd3bbd1131 = L.popup({"maxWidth": 500});
+
+        
+            var html_643d3c440a514778b8ef438ea31cfea9 = $(`<div id="html_643d3c440a514778b8ef438ea31cfea9" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_1809994975e9419ca35fb0cd3bbd1131.setContent(html_643d3c440a514778b8ef438ea31cfea9);
+        
+
+        marker_899c5e7afeab4fe0a3f7c8394289a2d3.bindPopup(popup_1809994975e9419ca35fb0cd3bbd1131)
+        ;
+
+        
+    
+    
+            marker_899c5e7afeab4fe0a3f7c8394289a2d3.bindTooltip(
+                `<div>
+                     ศูนย์ฟื้นฟูสุขภาพผู้สูงอายุ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b72ff9dc6fac420a9b51788282d59ff7 = L.marker(
+                [15.686254, 100.110542],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_c25f679c511f484db0244f8524b18961 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b72ff9dc6fac420a9b51788282d59ff7.setIcon(icon_c25f679c511f484db0244f8524b18961);
+        
+    
+        var popup_162032a0720a49189d523f699ef02c6b = L.popup({"maxWidth": 500});
+
+        
+            var html_9bb6feb60c6f4b11bfc3ff59f44715db = $(`<div id="html_9bb6feb60c6f4b11bfc3ff59f44715db" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_162032a0720a49189d523f699ef02c6b.setContent(html_9bb6feb60c6f4b11bfc3ff59f44715db);
+        
+
+        marker_b72ff9dc6fac420a9b51788282d59ff7.bindPopup(popup_162032a0720a49189d523f699ef02c6b)
+        ;
+
+        
+    
+    
+            marker_b72ff9dc6fac420a9b51788282d59ff7.bindTooltip(
+                `<div>
+                     โครงการชลประทานนครสวรรค์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf4e8cc42d5f40e4ab8add0af5597718 = L.marker(
+                [13.807156, 100.506319],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_9ca4e62c654d4164911225358a64a49f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_bf4e8cc42d5f40e4ab8add0af5597718.setIcon(icon_9ca4e62c654d4164911225358a64a49f);
+        
+    
+        var popup_f4e657bb8c934a18927fdc05ba91c244 = L.popup({"maxWidth": 500});
+
+        
+            var html_3fc0eb42476c4160883b09da8f326482 = $(`<div id="html_3fc0eb42476c4160883b09da8f326482" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 23</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_f4e657bb8c934a18927fdc05ba91c244.setContent(html_3fc0eb42476c4160883b09da8f326482);
+        
+
+        marker_bf4e8cc42d5f40e4ab8add0af5597718.bindPopup(popup_f4e657bb8c934a18927fdc05ba91c244)
+        ;
+
+        
+    
+    
+            marker_bf4e8cc42d5f40e4ab8add0af5597718.bindTooltip(
+                `<div>
+                     กรมควบควบคุมโรค
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82ca58955faf46e7853c823522a864d0 = L.marker(
+                [13.907861, 100.535641],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_c6d29ff047df4cbfbf2d09b2d1a7f801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_82ca58955faf46e7853c823522a864d0.setIcon(icon_c6d29ff047df4cbfbf2d09b2d1a7f801);
+        
+    
+        var popup_346f6a9ecaba4c5cab7edd082e11e23f = L.popup({"maxWidth": 500});
+
+        
+            var html_64e3634c881249dabac4f115a4489381 = $(`<div id="html_64e3634c881249dabac4f115a4489381" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 10</h5> <h5>ค่าPM2.5 : 9 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_346f6a9ecaba4c5cab7edd082e11e23f.setContent(html_64e3634c881249dabac4f115a4489381);
+        
+
+        marker_82ca58955faf46e7853c823522a864d0.bindPopup(popup_346f6a9ecaba4c5cab7edd082e11e23f)
+        ;
+
+        
+    
+    
+            marker_82ca58955faf46e7853c823522a864d0.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยสุโขทัยธรรมาธิราช 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a55d6d543ef8430ebc9a925fb71932a0 = L.marker(
+                [6.426885, 101.823005],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_f8e00547f0984d87ad9292e868b5d753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_a55d6d543ef8430ebc9a925fb71932a0.setIcon(icon_f8e00547f0984d87ad9292e868b5d753);
+        
+    
+        var popup_bb173948b5704935a1a8482e72af159e = L.popup({"maxWidth": 500});
+
+        
+            var html_a02c812d21e54ea88ea2bcf475550cd7 = $(`<div id="html_a02c812d21e54ea88ea2bcf475550cd7" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 20</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_bb173948b5704935a1a8482e72af159e.setContent(html_a02c812d21e54ea88ea2bcf475550cd7);
+        
+
+        marker_a55d6d543ef8430ebc9a925fb71932a0.bindPopup(popup_bb173948b5704935a1a8482e72af159e)
+        ;
+
+        
+    
+    
+            marker_a55d6d543ef8430ebc9a925fb71932a0.bindTooltip(
+                `<div>
+                     ศาลากลางจังหวัดนราธิวาส 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f787ec9898547d5b879f5a3836c77d6 = L.marker(
+                [18.788878, 100.776359],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_b74225af74e84408ad6cbce4a8568dfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_3f787ec9898547d5b879f5a3836c77d6.setIcon(icon_b74225af74e84408ad6cbce4a8568dfa);
+        
+    
+        var popup_00ecad19f3a94c8b8c7133b013582bbd = L.popup({"maxWidth": 500});
+
+        
+            var html_ca0f7aadb8f14d658498151f312cd855 = $(`<div id="html_ca0f7aadb8f14d658498151f312cd855" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_00ecad19f3a94c8b8c7133b013582bbd.setContent(html_ca0f7aadb8f14d658498151f312cd855);
+        
+
+        marker_3f787ec9898547d5b879f5a3836c77d6.bindPopup(popup_00ecad19f3a94c8b8c7133b013582bbd)
+        ;
+
+        
+    
+    
+            marker_3f787ec9898547d5b879f5a3836c77d6.bindTooltip(
+                `<div>
+                     สำนักงานเทศบาลเมืองน่าน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea4a2e325f644a3bb94dba50c75fd9b0 = L.marker(
+                [19.32238, 101.025365],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_79346780ead848f3a0de0c3c6d9fd589 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ea4a2e325f644a3bb94dba50c75fd9b0.setIcon(icon_79346780ead848f3a0de0c3c6d9fd589);
+        
+    
+        var popup_62ab84c835df4443bf8e9ca392da3c95 = L.popup({"maxWidth": 500});
+
+        
+            var html_73fc09d07e124237a6e90592705d989b = $(`<div id="html_73fc09d07e124237a6e90592705d989b" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_62ab84c835df4443bf8e9ca392da3c95.setContent(html_73fc09d07e124237a6e90592705d989b);
+        
+
+        marker_ea4a2e325f644a3bb94dba50c75fd9b0.bindPopup(popup_62ab84c835df4443bf8e9ca392da3c95)
+        ;
+
+        
+    
+    
+            marker_ea4a2e325f644a3bb94dba50c75fd9b0.bindTooltip(
+                `<div>
+                     โรงพยาบาลเฉลิมพระเกียรติ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8e31ac370aa4f91b6ec6ba339f92ee1 = L.marker(
+                [14.03742, 100.605216],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_a8aaaeb0239c4dde9fead200b2320565 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8e31ac370aa4f91b6ec6ba339f92ee1.setIcon(icon_a8aaaeb0239c4dde9fead200b2320565);
+        
+    
+        var popup_5bfeff8804ce45508561a6a4f3fd1b4a = L.popup({"maxWidth": 500});
+
+        
+            var html_d6a35004abe24bcbac2da8db4fc0c39d = $(`<div id="html_d6a35004abe24bcbac2da8db4fc0c39d" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 36</h5> <h5>ค่าPM2.5 : 15 µg/m³</h5> <b>ระดับความรุนเเรง : 2</b></div>`)[0];
+            popup_5bfeff8804ce45508561a6a4f3fd1b4a.setContent(html_d6a35004abe24bcbac2da8db4fc0c39d);
+        
+
+        marker_f8e31ac370aa4f91b6ec6ba339f92ee1.bindPopup(popup_5bfeff8804ce45508561a6a4f3fd1b4a)
+        ;
+
+        
+    
+    
+            marker_f8e31ac370aa4f91b6ec6ba339f92ee1.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยกรุงเทพ วิทยาเขตรังสิต 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_857b27a21d954d32bd78c63085070510 = L.marker(
+                [13.934197, 101.58696],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_791b8fda72db4b3a8d84f7707cca2477 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_857b27a21d954d32bd78c63085070510.setIcon(icon_791b8fda72db4b3a8d84f7707cca2477);
+        
+    
+        var popup_733823c099084635b7eb32d6e63b68cc = L.popup({"maxWidth": 500});
+
+        
+            var html_0de684e7cf9c4958a27be7b74459cfef = $(`<div id="html_0de684e7cf9c4958a27be7b74459cfef" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_733823c099084635b7eb32d6e63b68cc.setContent(html_0de684e7cf9c4958a27be7b74459cfef);
+        
+
+        marker_857b27a21d954d32bd78c63085070510.bindPopup(popup_733823c099084635b7eb32d6e63b68cc)
+        ;
+
+        
+    
+    
+            marker_857b27a21d954d32bd78c63085070510.bindTooltip(
+                `<div>
+                     ศาลาประชาคมบ้านบุยายใบ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f09c63c00584200b6a063d13fc2a89d = L.marker(
+                [14.35222, 100.565325],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_6dac87536f6e4dba907c643e832202d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2f09c63c00584200b6a063d13fc2a89d.setIcon(icon_6dac87536f6e4dba907c643e832202d9);
+        
+    
+        var popup_20ce986a45c84ea191164f6f5d7d503c = L.popup({"maxWidth": 500});
+
+        
+            var html_f5c5e62acfdf478587feeb6b68a769e9 = $(`<div id="html_f5c5e62acfdf478587feeb6b68a769e9" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 24</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_20ce986a45c84ea191164f6f5d7d503c.setContent(html_f5c5e62acfdf478587feeb6b68a769e9);
+        
+
+        marker_2f09c63c00584200b6a063d13fc2a89d.bindPopup(popup_20ce986a45c84ea191164f6f5d7d503c)
+        ;
+
+        
+    
+    
+            marker_2f09c63c00584200b6a063d13fc2a89d.bindTooltip(
+                `<div>
+                     โรงเรียนอยุธยาวิทยาลัย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed05db3dbdba46d198a9ff9aa96f1085 = L.marker(
+                [19.200226, 99.893048],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_fc444e8e52fe4f4d94c546e571d3d122 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ed05db3dbdba46d198a9ff9aa96f1085.setIcon(icon_fc444e8e52fe4f4d94c546e571d3d122);
+        
+    
+        var popup_0b50a1b4ee684f5b9a3ee2e0c29103fc = L.popup({"maxWidth": 500});
+
+        
+            var html_c819558b189c4e5dac0f37a78d49e4d6 = $(`<div id="html_c819558b189c4e5dac0f37a78d49e4d6" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_0b50a1b4ee684f5b9a3ee2e0c29103fc.setContent(html_c819558b189c4e5dac0f37a78d49e4d6);
+        
+
+        marker_ed05db3dbdba46d198a9ff9aa96f1085.bindPopup(popup_0b50a1b4ee684f5b9a3ee2e0c29103fc)
+        ;
+
+        
+    
+    
+            marker_ed05db3dbdba46d198a9ff9aa96f1085.bindTooltip(
+                `<div>
+                     สนามกีฬาจังหวัดพะเยา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e43e82e92ee142ddb7d5a3d4c801c121 = L.marker(
+                [16.820833, 100.258056],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d649046a9b954288a84559f29a783b47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e43e82e92ee142ddb7d5a3d4c801c121.setIcon(icon_d649046a9b954288a84559f29a783b47);
+        
+    
+        var popup_47b1572dc1874eb98ef0c87e3089b467 = L.popup({"maxWidth": 500});
+
+        
+            var html_559c0a1eaec54e34a08492b1cea91022 = $(`<div id="html_559c0a1eaec54e34a08492b1cea91022" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 20</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_47b1572dc1874eb98ef0c87e3089b467.setContent(html_559c0a1eaec54e34a08492b1cea91022);
+        
+
+        marker_e43e82e92ee142ddb7d5a3d4c801c121.bindPopup(popup_47b1572dc1874eb98ef0c87e3089b467)
+        ;
+
+        
+    
+    
+            marker_e43e82e92ee142ddb7d5a3d4c801c121.bindTooltip(
+                `<div>
+                     สวนชมน่านเฉลิมพระเกียรติ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b24a1e8a140b4c87aee3abdbe294510e = L.marker(
+                [7.884508, 98.391318],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_bb07052c6bfb4736a704847187abfe83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b24a1e8a140b4c87aee3abdbe294510e.setIcon(icon_bb07052c6bfb4736a704847187abfe83);
+        
+    
+        var popup_14dc800afc974c0d91cf0627a6bdbf88 = L.popup({"maxWidth": 500});
+
+        
+            var html_c782ca51c8b34f5baa6681db2eb4ff31 = $(`<div id="html_c782ca51c8b34f5baa6681db2eb4ff31" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_14dc800afc974c0d91cf0627a6bdbf88.setContent(html_c782ca51c8b34f5baa6681db2eb4ff31);
+        
+
+        marker_b24a1e8a140b4c87aee3abdbe294510e.bindPopup(popup_14dc800afc974c0d91cf0627a6bdbf88)
+        ;
+
+        
+    
+    
+            marker_b24a1e8a140b4c87aee3abdbe294510e.bindTooltip(
+                `<div>
+                     ศูนย์บริการสาธารณสุขเทศบาลภูเก็ต
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cc1b3f6c4d9424799ad9f755b516a10 = L.marker(
+                [6.546197, 101.2831],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_132726dbb09445cf8d74fc3e0b18e393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6cc1b3f6c4d9424799ad9f755b516a10.setIcon(icon_132726dbb09445cf8d74fc3e0b18e393);
+        
+    
+        var popup_daef036670854ff28ceae268e2febcaa = L.popup({"maxWidth": 500});
+
+        
+            var html_acb8044ead444eb386a63c1ec0de4e68 = $(`<div id="html_acb8044ead444eb386a63c1ec0de4e68" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_daef036670854ff28ceae268e2febcaa.setContent(html_acb8044ead444eb386a63c1ec0de4e68);
+        
+
+        marker_6cc1b3f6c4d9424799ad9f755b516a10.bindPopup(popup_daef036670854ff28ceae268e2febcaa)
+        ;
+
+        
+    
+    
+            marker_6cc1b3f6c4d9424799ad9f755b516a10.bindTooltip(
+                `<div>
+                     สนามโรงพิธีช้างเผือก 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b35a4970f4949aea68f3d1686547192 = L.marker(
+                [5.763873, 101.067903],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_b47d7f2501e94ca88b572cb20cb71b63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2b35a4970f4949aea68f3d1686547192.setIcon(icon_b47d7f2501e94ca88b572cb20cb71b63);
+        
+    
+        var popup_3059f25a767d4b1582608a059c178627 = L.popup({"maxWidth": 500});
+
+        
+            var html_b5aa2931fdc9414f8de4e32ed9c014d3 = $(`<div id="html_b5aa2931fdc9414f8de4e32ed9c014d3" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_3059f25a767d4b1582608a059c178627.setContent(html_b5aa2931fdc9414f8de4e32ed9c014d3);
+        
+
+        marker_2b35a4970f4949aea68f3d1686547192.bindPopup(popup_3059f25a767d4b1582608a059c178627)
+        ;
+
+        
+    
+    
+            marker_2b35a4970f4949aea68f3d1686547192.bindTooltip(
+                `<div>
+                     ศูนย์พัฒนาเด็กเล็กเทศบาลเมืองเบตง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3a6ccec45c647c492bd55271e591701 = L.marker(
+                [12.97378, 101.212844],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_f3dea79e8c4d43a6991e0671ec617ef7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_c3a6ccec45c647c492bd55271e591701.setIcon(icon_f3dea79e8c4d43a6991e0671ec617ef7);
+        
+    
+        var popup_566e0e6ac6eb4908a0b69acbd35a76eb = L.popup({"maxWidth": 500});
+
+        
+            var html_d18f0bff364c4f789d644a565a913593 = $(`<div id="html_d18f0bff364c4f789d644a565a913593" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_566e0e6ac6eb4908a0b69acbd35a76eb.setContent(html_d18f0bff364c4f789d644a565a913593);
+        
+
+        marker_c3a6ccec45c647c492bd55271e591701.bindPopup(popup_566e0e6ac6eb4908a0b69acbd35a76eb)
+        ;
+
+        
+    
+    
+            marker_c3a6ccec45c647c492bd55271e591701.bindTooltip(
+                `<div>
+                     สำนักงานสาธารณสุขอำเภอปลวกแดง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd3ac571591e4cdeb634de3f2313084b = L.marker(
+                [12.70862, 101.166055],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_fc4455b4e0cd42c6947dbd84f7554038 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_cd3ac571591e4cdeb634de3f2313084b.setIcon(icon_fc4455b4e0cd42c6947dbd84f7554038);
+        
+    
+        var popup_936701b45db34db299a8817cffff9285 = L.popup({"maxWidth": 500});
+
+        
+            var html_f917b01592084127ad86b740686793d7 = $(`<div id="html_f917b01592084127ad86b740686793d7" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_936701b45db34db299a8817cffff9285.setContent(html_f917b01592084127ad86b740686793d7);
+        
+
+        marker_cd3ac571591e4cdeb634de3f2313084b.bindPopup(popup_936701b45db34db299a8817cffff9285)
+        ;
+
+        
+    
+    
+            marker_cd3ac571591e4cdeb634de3f2313084b.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลมาบตาพุด 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a49d3ba0d09a4bc7a0729531e3106a4d = L.marker(
+                [12.671521, 101.275875],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_4bdf465b2f304ae5a6de41a185087524 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_a49d3ba0d09a4bc7a0729531e3106a4d.setIcon(icon_4bdf465b2f304ae5a6de41a185087524);
+        
+    
+        var popup_612269c9dc644a1380b590552851d817 = L.popup({"maxWidth": 500});
+
+        
+            var html_01c363b2b21049f3bc1523fadc34f309 = $(`<div id="html_01c363b2b21049f3bc1523fadc34f309" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 17</h5> <h5>ค่าPM2.5 : 4 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_612269c9dc644a1380b590552851d817.setContent(html_01c363b2b21049f3bc1523fadc34f309);
+        
+
+        marker_a49d3ba0d09a4bc7a0729531e3106a4d.bindPopup(popup_612269c9dc644a1380b590552851d817)
+        ;
+
+        
+    
+    
+            marker_a49d3ba0d09a4bc7a0729531e3106a4d.bindTooltip(
+                `<div>
+                     สำนักงานเกษตรจังหวัดระยอง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce4f4ba2e24f4b019e7a84cc058a730f = L.marker(
+                [12.735114, 101.13562],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_4f12920b89564befa2e1667a95f32ee7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ce4f4ba2e24f4b019e7a84cc058a730f.setIcon(icon_4f12920b89564befa2e1667a95f32ee7);
+        
+    
+        var popup_18c246ef5ac941ada2411e68b3a8c1e0 = L.popup({"maxWidth": 500});
+
+        
+            var html_f5d9d058f2794bd5911aa338ca67417e = $(`<div id="html_f5d9d058f2794bd5911aa338ca67417e" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 4 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_18c246ef5ac941ada2411e68b3a8c1e0.setContent(html_f5d9d058f2794bd5911aa338ca67417e);
+        
+
+        marker_ce4f4ba2e24f4b019e7a84cc058a730f.bindPopup(popup_18c246ef5ac941ada2411e68b3a8c1e0)
+        ;
+
+        
+    
+    
+            marker_ce4f4ba2e24f4b019e7a84cc058a730f.bindTooltip(
+                `<div>
+                     ศูนย์วิจัยพืชไร่ระยอง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bad841ee808f4edbba89a7eb2bda4666 = L.marker(
+                [12.706325, 101.180975],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_262ff317f9fa4aeba048f9d3de60e7bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_bad841ee808f4edbba89a7eb2bda4666.setIcon(icon_262ff317f9fa4aeba048f9d3de60e7bb);
+        
+    
+        var popup_b011596dc4d24083aba6340bc6486afa = L.popup({"maxWidth": 500});
+
+        
+            var html_52660736a1074446b9f11b1deaa11367 = $(`<div id="html_52660736a1074446b9f11b1deaa11367" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_b011596dc4d24083aba6340bc6486afa.setContent(html_52660736a1074446b9f11b1deaa11367);
+        
+
+        marker_bad841ee808f4edbba89a7eb2bda4666.bindPopup(popup_b011596dc4d24083aba6340bc6486afa)
+        ;
+
+        
+    
+    
+            marker_bad841ee808f4edbba89a7eb2bda4666.bindTooltip(
+                `<div>
+                     ศูนย์ราชการจังหวัดระยอง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cd6c9379fa347aca161a6b78cb4f4c8 = L.marker(
+                [12.648576, 101.32245],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_8f3b9a930a1e4753a6b39f6d0028889d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2cd6c9379fa347aca161a6b78cb4f4c8.setIcon(icon_8f3b9a930a1e4753a6b39f6d0028889d);
+        
+    
+        var popup_070a01323c4946b78aa479559421628d = L.popup({"maxWidth": 500});
+
+        
+            var html_d2a71a8c308c4fe48b5e4ae1ab420767 = $(`<div id="html_d2a71a8c308c4fe48b5e4ae1ab420767" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 48</h5> <h5>ค่าPM2.5 : 3 µg/m³</h5> <b>ระดับความรุนเเรง : 2</b></div>`)[0];
+            popup_070a01323c4946b78aa479559421628d.setContent(html_d2a71a8c308c4fe48b5e4ae1ab420767);
+        
+
+        marker_2cd6c9379fa347aca161a6b78cb4f4c8.bindPopup(popup_070a01323c4946b78aa479559421628d)
+        ;
+
+        
+    
+    
+            marker_2cd6c9379fa347aca161a6b78cb4f4c8.bindTooltip(
+                `<div>
+                     ค่ายสุรสิงหนาท
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d733d447886427a8f9fb690a0b2a6c0 = L.marker(
+                [13.53244, 99.814082],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_278d804557a741659496e974de583991 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_4d733d447886427a8f9fb690a0b2a6c0.setIcon(icon_278d804557a741659496e974de583991);
+        
+    
+        var popup_a24236a7d2414160b251901d5e7baaa6 = L.popup({"maxWidth": 500});
+
+        
+            var html_2c877e7d08044c919419326ec5304a1f = $(`<div id="html_2c877e7d08044c919419326ec5304a1f" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 25</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_a24236a7d2414160b251901d5e7baaa6.setContent(html_2c877e7d08044c919419326ec5304a1f);
+        
+
+        marker_4d733d447886427a8f9fb690a0b2a6c0.bindPopup(popup_a24236a7d2414160b251901d5e7baaa6)
+        ;
+
+        
+    
+    
+            marker_4d733d447886427a8f9fb690a0b2a6c0.bindTooltip(
+                `<div>
+                     สำนักงานสิ่งแวดล้อมภาคที่8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b262b1fa7884a64bcaa14d984876446 = L.marker(
+                [18.278251, 99.506447],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d852bee3cff8408e987a1e09a1a25aa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_0b262b1fa7884a64bcaa14d984876446.setIcon(icon_d852bee3cff8408e987a1e09a1a25aa9);
+        
+    
+        var popup_9850399466274e83942e1f83b0d44a5a = L.popup({"maxWidth": 500});
+
+        
+            var html_fe37bea1a8b74b2b99e397535cc3bbd0 = $(`<div id="html_fe37bea1a8b74b2b99e397535cc3bbd0" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 19</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_9850399466274e83942e1f83b0d44a5a.setContent(html_fe37bea1a8b74b2b99e397535cc3bbd0);
+        
+
+        marker_0b262b1fa7884a64bcaa14d984876446.bindPopup(popup_9850399466274e83942e1f83b0d44a5a)
+        ;
+
+        
+    
+    
+            marker_0b262b1fa7884a64bcaa14d984876446.bindTooltip(
+                `<div>
+                     สถานีอุตุนิยมวิทยาลำปาง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e09898f867254292b881867ec973788b = L.marker(
+                [18.250747, 99.763986],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_c1435effa1784894bd781667f858d808 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e09898f867254292b881867ec973788b.setIcon(icon_c1435effa1784894bd781667f858d808);
+        
+    
+        var popup_c6658666b85945279c4194dc4fff248b = L.popup({"maxWidth": 500});
+
+        
+            var html_908189278ef34f80ac0b0ab3356a1966 = $(`<div id="html_908189278ef34f80ac0b0ab3356a1966" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_c6658666b85945279c4194dc4fff248b.setContent(html_908189278ef34f80ac0b0ab3356a1966);
+        
+
+        marker_e09898f867254292b881867ec973788b.bindPopup(popup_c6658666b85945279c4194dc4fff248b)
+        ;
+
+        
+    
+    
+            marker_e09898f867254292b881867ec973788b.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลบ้านสบป้าด 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72bf2b74ecb544229ac9fdaf6814ec8f = L.marker(
+                [18.419425, 99.727046],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_7052deed954c44bea3787f1b8fb29941 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_72bf2b74ecb544229ac9fdaf6814ec8f.setIcon(icon_7052deed954c44bea3787f1b8fb29941);
+        
+    
+        var popup_6fe7e49f11fc41bfa010898dbf7149f3 = L.popup({"maxWidth": 500});
+
+        
+            var html_9dd0ff2d25534900b9845c9dccd5e249 = $(`<div id="html_9dd0ff2d25534900b9845c9dccd5e249" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 4 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_6fe7e49f11fc41bfa010898dbf7149f3.setContent(html_9dd0ff2d25534900b9845c9dccd5e249);
+        
+
+        marker_72bf2b74ecb544229ac9fdaf6814ec8f.bindPopup(popup_6fe7e49f11fc41bfa010898dbf7149f3)
+        ;
+
+        
+    
+    
+            marker_72bf2b74ecb544229ac9fdaf6814ec8f.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลท่าสี 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1a0ba21a2f940bc93e61125f9d083f2 = L.marker(
+                [18.282664, 99.659873],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3ac4a5c29fb34576989465d07ff35a5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e1a0ba21a2f940bc93e61125f9d083f2.setIcon(icon_3ac4a5c29fb34576989465d07ff35a5f);
+        
+    
+        var popup_b9645bfc9e164ce387d958b864b653d5 = L.popup({"maxWidth": 500});
+
+        
+            var html_07d5fd02142944b8aaa7db3d9bdc56d6 = $(`<div id="html_07d5fd02142944b8aaa7db3d9bdc56d6" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 9 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_b9645bfc9e164ce387d958b864b653d5.setContent(html_07d5fd02142944b8aaa7db3d9bdc56d6);
+        
+
+        marker_e1a0ba21a2f940bc93e61125f9d083f2.bindPopup(popup_b9645bfc9e164ce387d958b864b653d5)
+        ;
+
+        
+    
+    
+            marker_e1a0ba21a2f940bc93e61125f9d083f2.bindTooltip(
+                `<div>
+                     การประปาส่วนภูมิภาคแม่เมาะ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4677f5386d134432965478a5d999b793 = L.marker(
+                [18.567179, 99.03856],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_1bac1623fd0f4e569e69331597cfbc67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_4677f5386d134432965478a5d999b793.setIcon(icon_1bac1623fd0f4e569e69331597cfbc67);
+        
+    
+        var popup_df690720241441bba5e68d14fabc64fc = L.popup({"maxWidth": 500});
+
+        
+            var html_2dfc3efca1134665b6ee116037ddfa6b = $(`<div id="html_2dfc3efca1134665b6ee116037ddfa6b" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_df690720241441bba5e68d14fabc64fc.setContent(html_2dfc3efca1134665b6ee116037ddfa6b);
+        
+
+        marker_4677f5386d134432965478a5d999b793.bindPopup(popup_df690720241441bba5e68d14fabc64fc)
+        ;
+
+        
+    
+    
+            marker_4677f5386d134432965478a5d999b793.bindTooltip(
+                `<div>
+                     อุตุนิยมวิทยาลำพูน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44d1259dbd10475486226a8605e21647 = L.marker(
+                [17.15662, 104.133216],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3d2eebbc1fe1442eace211ae8914c8dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_44d1259dbd10475486226a8605e21647.setIcon(icon_3d2eebbc1fe1442eace211ae8914c8dc);
+        
+    
+        var popup_9632a72924634ac2a1e8fdf5834005a4 = L.popup({"maxWidth": 500});
+
+        
+            var html_c36995bf545e4e4ab470f4cbd4eac1aa = $(`<div id="html_c36995bf545e4e4ab470f4cbd4eac1aa" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 4 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_9632a72924634ac2a1e8fdf5834005a4.setContent(html_c36995bf545e4e4ab470f4cbd4eac1aa);
+        
+
+        marker_44d1259dbd10475486226a8605e21647.bindPopup(popup_9632a72924634ac2a1e8fdf5834005a4)
+        ;
+
+        
+    
+    
+            marker_44d1259dbd10475486226a8605e21647.bindTooltip(
+                `<div>
+                     สถานีอุตุนิยมวิทยาสกลนคร
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a315bd8a9954cb689da6f8df65c0571 = L.marker(
+                [7.020545, 100.48404],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_ed2518fdaed0464bb58a43a021f1e874 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2a315bd8a9954cb689da6f8df65c0571.setIcon(icon_ed2518fdaed0464bb58a43a021f1e874);
+        
+    
+        var popup_0127c3942f2d4d719807ec9b35239cf4 = L.popup({"maxWidth": 500});
+
+        
+            var html_927171e8c49c4f1ab19fc3ba2d613bef = $(`<div id="html_927171e8c49c4f1ab19fc3ba2d613bef" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_0127c3942f2d4d719807ec9b35239cf4.setContent(html_927171e8c49c4f1ab19fc3ba2d613bef);
+        
+
+        marker_2a315bd8a9954cb689da6f8df65c0571.bindPopup(popup_0127c3942f2d4d719807ec9b35239cf4)
+        ;
+
+        
+    
+    
+            marker_2a315bd8a9954cb689da6f8df65c0571.bindTooltip(
+                `<div>
+                     เทศบาลนครหาดใหญ่ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18209486fe01412080e80aa91f522ce7 = L.marker(
+                [6.624686, 100.066212],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_ae0b42d397a54fdd9795243ea841ef83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_18209486fe01412080e80aa91f522ce7.setIcon(icon_ae0b42d397a54fdd9795243ea841ef83);
+        
+    
+        var popup_6600a43a095e4a3593fcd5e84e2e77cf = L.popup({"maxWidth": 500});
+
+        
+            var html_34825b8472f14bb0ad1f14e95247b51d = $(`<div id="html_34825b8472f14bb0ad1f14e95247b51d" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_6600a43a095e4a3593fcd5e84e2e77cf.setContent(html_34825b8472f14bb0ad1f14e95247b51d);
+        
+
+        marker_18209486fe01412080e80aa91f522ce7.bindPopup(popup_6600a43a095e4a3593fcd5e84e2e77cf)
+        ;
+
+        
+    
+    
+            marker_18209486fe01412080e80aa91f522ce7.bindTooltip(
+                `<div>
+                     ศาลากลาง จ.สตูล
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f777493101440349acdce2a14649989 = L.marker(
+                [13.664087, 100.543436],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_dec00e8b8a324754a455e2388c29c691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2f777493101440349acdce2a14649989.setIcon(icon_dec00e8b8a324754a455e2388c29c691);
+        
+    
+        var popup_7f89426fd2cc4d41b451755b790620a4 = L.popup({"maxWidth": 500});
+
+        
+            var html_8666bc7529ee4c4da318ba134a8c1641 = $(`<div id="html_8666bc7529ee4c4da318ba134a8c1641" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 24</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_7f89426fd2cc4d41b451755b790620a4.setContent(html_8666bc7529ee4c4da318ba134a8c1641);
+        
+
+        marker_2f777493101440349acdce2a14649989.bindPopup(popup_7f89426fd2cc4d41b451755b790620a4)
+        ;
+
+        
+    
+    
+            marker_2f777493101440349acdce2a14649989.bindTooltip(
+                `<div>
+                     ศูนย์ฟื้นฟูอาชีพคนพิการและทุพลภาพ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42eca14e4cf745d298105fd6a898371f = L.marker(
+                [13.618, 100.5562],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_8c408d9ca8844528b6b0d1483eec2df5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_42eca14e4cf745d298105fd6a898371f.setIcon(icon_8c408d9ca8844528b6b0d1483eec2df5);
+        
+    
+        var popup_27d48ca14f284142a4d17f83d9c8687f = L.popup({"maxWidth": 500});
+
+        
+            var html_3be2c1482d0746ceb988c6925ad094c1 = $(`<div id="html_3be2c1482d0746ceb988c6925ad094c1" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_27d48ca14f284142a4d17f83d9c8687f.setContent(html_3be2c1482d0746ceb988c6925ad094c1);
+        
+
+        marker_42eca14e4cf745d298105fd6a898371f.bindPopup(popup_27d48ca14f284142a4d17f83d9c8687f)
+        ;
+
+        
+    
+    
+            marker_42eca14e4cf745d298105fd6a898371f.bindTooltip(
+                `<div>
+                     โรงไฟฟ้าพระนครใต้ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f32afc38b74f4ee5970890a14efd00f4 = L.marker(
+                [13.652141, 100.531805],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_27e84e7891ad459589a143628c3af04b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f32afc38b74f4ee5970890a14efd00f4.setIcon(icon_27e84e7891ad459589a143628c3af04b);
+        
+    
+        var popup_2bef35adb7d8438d9c1c41293343640a = L.popup({"maxWidth": 500});
+
+        
+            var html_ea055ea3f52e49bc88e25739e0f47449 = $(`<div id="html_ea055ea3f52e49bc88e25739e0f47449" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_2bef35adb7d8438d9c1c41293343640a.setContent(html_ea055ea3f52e49bc88e25739e0f47449);
+        
+
+        marker_f32afc38b74f4ee5970890a14efd00f4.bindPopup(popup_2bef35adb7d8438d9c1c41293343640a)
+        ;
+
+        
+    
+    
+            marker_f32afc38b74f4ee5970890a14efd00f4.bindTooltip(
+                `<div>
+                     บ้านพักกรมอุตสาหกรรมพื้นฐานและการเหมืองแร่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a1b6e1ca78644538afc57785e6cc0ff = L.marker(
+                [13.599149, 100.597345],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_5137c578d164431aa2e4cff15416c1ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_4a1b6e1ca78644538afc57785e6cc0ff.setIcon(icon_5137c578d164431aa2e4cff15416c1ce);
+        
+    
+        var popup_08d49e99aeef46ecba50011f9a38a622 = L.popup({"maxWidth": 500});
+
+        
+            var html_45083fab503f45e599a38616dcdbb885 = $(`<div id="html_45083fab503f45e599a38616dcdbb885" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 22</h5> <h5>ค่าPM2.5 : 22 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_08d49e99aeef46ecba50011f9a38a622.setContent(html_45083fab503f45e599a38616dcdbb885);
+        
+
+        marker_4a1b6e1ca78644538afc57785e6cc0ff.bindPopup(popup_08d49e99aeef46ecba50011f9a38a622)
+        ;
+
+        
+    
+    
+            marker_4a1b6e1ca78644538afc57785e6cc0ff.bindTooltip(
+                `<div>
+                     ศาลากลางจังหวัดสมุทรปราการ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2242d976100645f1ba0df07ffe308b17 = L.marker(
+                [13.5705, 100.786287],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_045c67717a3e402c9aa7dd6d4f9de825 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2242d976100645f1ba0df07ffe308b17.setIcon(icon_045c67717a3e402c9aa7dd6d4f9de825);
+        
+    
+        var popup_f24b87cc8ffb4e4e93de66ee6b3bc835 = L.popup({"maxWidth": 500});
+
+        
+            var html_22d74233396343cfa281d3e70c913b1e = $(`<div id="html_22d74233396343cfa281d3e70c913b1e" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 14 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_f24b87cc8ffb4e4e93de66ee6b3bc835.setContent(html_22d74233396343cfa281d3e70c913b1e);
+        
+
+        marker_2242d976100645f1ba0df07ffe308b17.bindPopup(popup_f24b87cc8ffb4e4e93de66ee6b3bc835)
+        ;
+
+        
+    
+    
+            marker_2242d976100645f1ba0df07ffe308b17.bindTooltip(
+                `<div>
+                     การเคหะชุมชนเมืองใหม่บางพลี 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aeccb001f5b345669bce1d2b45c245aa = L.marker(
+                [13.702778, 100.75],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_638de9bfc8f74654aa3e81c24d7228e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_aeccb001f5b345669bce1d2b45c245aa.setIcon(icon_638de9bfc8f74654aa3e81c24d7228e7);
+        
+    
+        var popup_9257ea08127e48b7bbedabe47240600a = L.popup({"maxWidth": 500});
+
+        
+            var html_2cef47b97a4a4c5790cc84294da85ce0 = $(`<div id="html_2cef47b97a4a4c5790cc84294da85ce0" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 4 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_9257ea08127e48b7bbedabe47240600a.setContent(html_2cef47b97a4a4c5790cc84294da85ce0);
+        
+
+        marker_aeccb001f5b345669bce1d2b45c245aa.bindPopup(popup_9257ea08127e48b7bbedabe47240600a)
+        ;
+
+        
+    
+    
+            marker_aeccb001f5b345669bce1d2b45c245aa.bindTooltip(
+                `<div>
+                     เขตปลอดอากรท่าอากาศยานสุวรรณภูมิ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac2c626d6d97417abbf3e66c45f1a49a = L.marker(
+                [13.676111, 100.715],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_f8635f21fa44493e9f6c067bb5cf97a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ac2c626d6d97417abbf3e66c45f1a49a.setIcon(icon_f8635f21fa44493e9f6c067bb5cf97a0);
+        
+    
+        var popup_10c80b707a76402984f2b115b0c3e5cb = L.popup({"maxWidth": 500});
+
+        
+            var html_06633ba7709944e1b36eeaebabdb23e3 = $(`<div id="html_06633ba7709944e1b36eeaebabdb23e3" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_10c80b707a76402984f2b115b0c3e5cb.setContent(html_06633ba7709944e1b36eeaebabdb23e3);
+        
+
+        marker_ac2c626d6d97417abbf3e66c45f1a49a.bindPopup(popup_10c80b707a76402984f2b115b0c3e5cb)
+        ;
+
+        
+    
+    
+            marker_ac2c626d6d97417abbf3e66c45f1a49a.bindTooltip(
+                `<div>
+                     วัดกิ่งแก้ว
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6ee34c9a5894dc096b62efcd6529c77 = L.marker(
+                [13.696681, 100.563631],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_aec8aea6e1074f60bf7b818fc87540dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_b6ee34c9a5894dc096b62efcd6529c77.setIcon(icon_aec8aea6e1074f60bf7b818fc87540dd);
+        
+    
+        var popup_3139fae1e96e4a54b5f9e5850b5690f8 = L.popup({"maxWidth": 500});
+
+        
+            var html_382aa111b001417ea5acb2180737c3a5 = $(`<div id="html_382aa111b001417ea5acb2180737c3a5" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 8</h5> <h5>ค่าPM2.5 : 8 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_3139fae1e96e4a54b5f9e5850b5690f8.setContent(html_382aa111b001417ea5acb2180737c3a5);
+        
+
+        marker_b6ee34c9a5894dc096b62efcd6529c77.bindPopup(popup_3139fae1e96e4a54b5f9e5850b5690f8)
+        ;
+
+        
+    
+    
+            marker_b6ee34c9a5894dc096b62efcd6529c77.bindTooltip(
+                `<div>
+                     สวนศรีนครเขื่อนขันธ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d136ec570464fe3a9a2c4601474ab59 = L.marker(
+                [13.428581, 100.024664],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_06c98f3e1327419b8b52c5a60800cfa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_0d136ec570464fe3a9a2c4601474ab59.setIcon(icon_06c98f3e1327419b8b52c5a60800cfa3);
+        
+    
+        var popup_b7a05924cd3a4f048b1c5f2975daaa6c = L.popup({"maxWidth": 500});
+
+        
+            var html_5eeec49ce2274b048f0119ed5adee03f = $(`<div id="html_5eeec49ce2274b048f0119ed5adee03f" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 20</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_b7a05924cd3a4f048b1c5f2975daaa6c.setContent(html_5eeec49ce2274b048f0119ed5adee03f);
+        
+
+        marker_0d136ec570464fe3a9a2c4601474ab59.bindPopup(popup_b7a05924cd3a4f048b1c5f2975daaa6c)
+        ;
+
+        
+    
+    
+            marker_0d136ec570464fe3a9a2c4601474ab59.bindTooltip(
+                `<div>
+                     สำนักงานสาธารณสุขจังหวัดสมุทรสงคราม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2526e1c94c4d4c3280bdc4f5f947de42 = L.marker(
+                [13.705458, 100.315675],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_dbe8146c30884bc5b309ba7facd73386 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_2526e1c94c4d4c3280bdc4f5f947de42.setIcon(icon_dbe8146c30884bc5b309ba7facd73386);
+        
+    
+        var popup_7025345b40724b1bb6a3e230f917f8b2 = L.popup({"maxWidth": 500});
+
+        
+            var html_02b39caa5dfc4752960f3535cb7a596b = $(`<div id="html_02b39caa5dfc4752960f3535cb7a596b" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_7025345b40724b1bb6a3e230f917f8b2.setContent(html_02b39caa5dfc4752960f3535cb7a596b);
+        
+
+        marker_2526e1c94c4d4c3280bdc4f5f947de42.bindPopup(popup_7025345b40724b1bb6a3e230f917f8b2)
+        ;
+
+        
+    
+    
+            marker_2526e1c94c4d4c3280bdc4f5f947de42.bindTooltip(
+                `<div>
+                     แขวงการทางสมุทรสาคร 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd84d4b4962144c4aca0d94eb206170a = L.marker(
+                [13.550478, 100.264254],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_07a01329966c4aec9f5e11580087b25b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_fd84d4b4962144c4aca0d94eb206170a.setIcon(icon_07a01329966c4aec9f5e11580087b25b);
+        
+    
+        var popup_44a883927402413bab353cd678df6454 = L.popup({"maxWidth": 500});
+
+        
+            var html_d7ffc622ff804b0eb361984259809bfe = $(`<div id="html_d7ffc622ff804b0eb361984259809bfe" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_44a883927402413bab353cd678df6454.setContent(html_d7ffc622ff804b0eb361984259809bfe);
+        
+
+        marker_fd84d4b4962144c4aca0d94eb206170a.bindPopup(popup_44a883927402413bab353cd678df6454)
+        ;
+
+        
+    
+    
+            marker_fd84d4b4962144c4aca0d94eb206170a.bindTooltip(
+                `<div>
+                     โรงเรียนสมุทรสาครวิทยาลัย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a7ea45b8e3f46508f2aace63e22d4b6 = L.marker(
+                [14.685833, 100.871996],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_40cbe65a10fd471790eab9eabd2af697 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0a7ea45b8e3f46508f2aace63e22d4b6.setIcon(icon_40cbe65a10fd471790eab9eabd2af697);
+        
+    
+        var popup_8c83a1e4f87245778c05a0f4f8b80599 = L.popup({"maxWidth": 500});
+
+        
+            var html_46423fe7a52f46a8bd8a03f2ee63dfb1 = $(`<div id="html_46423fe7a52f46a8bd8a03f2ee63dfb1" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 72</h5> <h5>ค่าPM2.5 : 19 µg/m³</h5> <b>ระดับความรุนเเรง : 3</b></div>`)[0];
+            popup_8c83a1e4f87245778c05a0f4f8b80599.setContent(html_46423fe7a52f46a8bd8a03f2ee63dfb1);
+        
+
+        marker_0a7ea45b8e3f46508f2aace63e22d4b6.bindPopup(popup_8c83a1e4f87245778c05a0f4f8b80599)
+        ;
+
+        
+    
+    
+            marker_0a7ea45b8e3f46508f2aace63e22d4b6.bindTooltip(
+                `<div>
+                     สถานีตำรวจภูธรตำบลหน้าพระลาน 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ae8d582c61b4b7491724933f24df7bb = L.marker(
+                [14.526343, 100.926047],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_63b1b6c5bfa14c47b2899c568034d8e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6ae8d582c61b4b7491724933f24df7bb.setIcon(icon_63b1b6c5bfa14c47b2899c568034d8e0);
+        
+    
+        var popup_13e2be15d2d841a889ab43860238a45a = L.popup({"maxWidth": 500});
+
+        
+            var html_4b07937a68e04c8b96b005529deab1d4 = $(`<div id="html_4b07937a68e04c8b96b005529deab1d4" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 12</h5> <h5>ค่าPM2.5 : 10 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_13e2be15d2d841a889ab43860238a45a.setContent(html_4b07937a68e04c8b96b005529deab1d4);
+        
+
+        marker_6ae8d582c61b4b7491724933f24df7bb.bindPopup(popup_13e2be15d2d841a889ab43860238a45a)
+        ;
+
+        
+    
+    
+            marker_6ae8d582c61b4b7491724933f24df7bb.bindTooltip(
+                `<div>
+                     สถานีดับเพลิงพระลักษณ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3da11a01eb58408f9b6b2c914e965244 = L.marker(
+                [13.691047, 102.510442],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_9a0d03aa8822418e9d051a8776e7fdef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_3da11a01eb58408f9b6b2c914e965244.setIcon(icon_9a0d03aa8822418e9d051a8776e7fdef);
+        
+    
+        var popup_8ffd581f6b104cb78c14a0357ddcbc9c = L.popup({"maxWidth": 500});
+
+        
+            var html_ad7ee08dccbb47bb818b3a5eb740a3b7 = $(`<div id="html_ad7ee08dccbb47bb818b3a5eb740a3b7" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 10</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_8ffd581f6b104cb78c14a0357ddcbc9c.setContent(html_ad7ee08dccbb47bb818b3a5eb740a3b7);
+        
+
+        marker_3da11a01eb58408f9b6b2c914e965244.bindPopup(popup_8ffd581f6b104cb78c14a0357ddcbc9c)
+        ;
+
+        
+    
+    
+            marker_3da11a01eb58408f9b6b2c914e965244.bindTooltip(
+                `<div>
+                     สวนกาญจนาภิเษก ร.9 (ฝั่งสวนหิน)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f405d1b5736d4828ace55798c2e363d6 = L.marker(
+                [14.476214, 100.086095],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_f7e8cea3e673423d88376eb8ad59e60d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f405d1b5736d4828ace55798c2e363d6.setIcon(icon_f7e8cea3e673423d88376eb8ad59e60d);
+        
+    
+        var popup_622e9c0c20434c13aabcea03388fe79e = L.popup({"maxWidth": 500});
+
+        
+            var html_f4b6a808f2f046ec94e6d53071355aa1 = $(`<div id="html_f4b6a808f2f046ec94e6d53071355aa1" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 18</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_622e9c0c20434c13aabcea03388fe79e.setContent(html_f4b6a808f2f046ec94e6d53071355aa1);
+        
+
+        marker_f405d1b5736d4828ace55798c2e363d6.bindPopup(popup_622e9c0c20434c13aabcea03388fe79e)
+        ;
+
+        
+    
+    
+            marker_f405d1b5736d4828ace55798c2e363d6.bindTooltip(
+                `<div>
+                     สนามกีฬากลางจังหวัดสุพรรณบุรี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93d0fff589694ef3b72676839c00d0d2 = L.marker(
+                [9.126057, 99.325355],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_c752dc1206984c2c98e53a9b3edef085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_93d0fff589694ef3b72676839c00d0d2.setIcon(icon_c752dc1206984c2c98e53a9b3edef085);
+        
+    
+        var popup_959e1af266ee40619e3f23c6d4739d8f = L.popup({"maxWidth": 500});
+
+        
+            var html_0861714037a64a02b5fc12326e098098 = $(`<div id="html_0861714037a64a02b5fc12326e098098" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 11</h5> <h5>ค่าPM2.5 : 11 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_959e1af266ee40619e3f23c6d4739d8f.setContent(html_0861714037a64a02b5fc12326e098098);
+        
+
+        marker_93d0fff589694ef3b72676839c00d0d2.bindPopup(popup_959e1af266ee40619e3f23c6d4739d8f)
+        ;
+
+        
+    
+    
+            marker_93d0fff589694ef3b72676839c00d0d2.bindTooltip(
+                `<div>
+                     สำนักงานสิ่งแวดล้อมภาคที่ 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45a52b7444984298a640ff4735a8c2b9 = L.marker(
+                [17.87748, 102.728925],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_a539d7dfc0aa4ff788c262e5f249617d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_45a52b7444984298a640ff4735a8c2b9.setIcon(icon_a539d7dfc0aa4ff788c262e5f249617d);
+        
+    
+        var popup_bbbc37e2360c41cba2f7be5419a01109 = L.popup({"maxWidth": 500});
+
+        
+            var html_f1c24a7a47254f7d933979fbe5089efe = $(`<div id="html_f1c24a7a47254f7d933979fbe5089efe" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_bbbc37e2360c41cba2f7be5419a01109.setContent(html_f1c24a7a47254f7d933979fbe5089efe);
+        
+
+        marker_45a52b7444984298a640ff4735a8c2b9.bindPopup(popup_bbbc37e2360c41cba2f7be5419a01109)
+        ;
+
+        
+    
+    
+            marker_45a52b7444984298a640ff4735a8c2b9.bindTooltip(
+                `<div>
+                     สวนสาธารณะหนองถิ่น
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ce4625956044b85b3f0c7a91c4efcbe = L.marker(
+                [17.414174, 102.780926],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_f7b04e9d73464c9da8c4b5edcb4fc496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_8ce4625956044b85b3f0c7a91c4efcbe.setIcon(icon_f7b04e9d73464c9da8c4b5edcb4fc496);
+        
+    
+        var popup_7c5bb42918d94776b0ac029cba38998f = L.popup({"maxWidth": 500});
+
+        
+            var html_e36fdc9de6a7426eaa805b4a5a1a7d17 = $(`<div id="html_e36fdc9de6a7426eaa805b4a5a1a7d17" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 4 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_7c5bb42918d94776b0ac029cba38998f.setContent(html_e36fdc9de6a7426eaa805b4a5a1a7d17);
+        
+
+        marker_8ce4625956044b85b3f0c7a91c4efcbe.bindPopup(popup_7c5bb42918d94776b0ac029cba38998f)
+        ;
+
+        
+    
+    
+            marker_8ce4625956044b85b3f0c7a91c4efcbe.bindTooltip(
+                `<div>
+                     สวนสาธารณะหนองประจักษ์ อุดรธานี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbf5a6782c3a4423adc41713d02d714e = L.marker(
+                [17.631352, 100.09896],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_cff8507b16aa496aadf6ef14522e166f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_dbf5a6782c3a4423adc41713d02d714e.setIcon(icon_cff8507b16aa496aadf6ef14522e166f);
+        
+    
+        var popup_be9b046ab46a4902b7cf5517f2fd683f = L.popup({"maxWidth": 500});
+
+        
+            var html_a074432813c945e68ef0c55687b6ce70 = $(`<div id="html_a074432813c945e68ef0c55687b6ce70" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_be9b046ab46a4902b7cf5517f2fd683f.setContent(html_a074432813c945e68ef0c55687b6ce70);
+        
+
+        marker_dbf5a6782c3a4423adc41713d02d714e.bindPopup(popup_be9b046ab46a4902b7cf5517f2fd683f)
+        ;
+
+        
+    
+    
+            marker_dbf5a6782c3a4423adc41713d02d714e.bindTooltip(
+                `<div>
+                     สวนมหามงคลเฉลิมพระชนมพรรษา 6 รอบ 5 ธันวาคม 2552 อุตรดิตถ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0a6194e61aa4b2ba30990aa95ebaadf = L.marker(
+                [15.373638, 100.038725],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_477f7fcb154149d0bfd5fab8beebe6f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_c0a6194e61aa4b2ba30990aa95ebaadf.setIcon(icon_477f7fcb154149d0bfd5fab8beebe6f0);
+        
+    
+        var popup_6aea54c5769c4c038c185eb82770a523 = L.popup({"maxWidth": 500});
+
+        
+            var html_a742db0c372440fd8feed4a42aa2e934 = $(`<div id="html_a742db0c372440fd8feed4a42aa2e934" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 13</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_6aea54c5769c4c038c185eb82770a523.setContent(html_a742db0c372440fd8feed4a42aa2e934);
+        
+
+        marker_c0a6194e61aa4b2ba30990aa95ebaadf.bindPopup(popup_6aea54c5769c4c038c185eb82770a523)
+        ;
+
+        
+    
+    
+            marker_c0a6194e61aa4b2ba30990aa95ebaadf.bindTooltip(
+                `<div>
+                     ศาลากลางจ.อุทัยธานี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dcfc2120b834102b073e0fc4fe2cd75 = L.marker(
+                [15.245413, 104.846219],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_572253174eec44fc9e6346174b421c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_1dcfc2120b834102b073e0fc4fe2cd75.setIcon(icon_572253174eec44fc9e6346174b421c4f);
+        
+    
+        var popup_c4b47887cd314624b0b449fdfc0057f0 = L.popup({"maxWidth": 500});
+
+        
+            var html_8636868a5ac74d53a82dbde9d16a388a = $(`<div id="html_8636868a5ac74d53a82dbde9d16a388a" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 15</h5> <h5>ค่าPM2.5 : 9 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_c4b47887cd314624b0b449fdfc0057f0.setContent(html_8636868a5ac74d53a82dbde9d16a388a);
+        
+
+        marker_1dcfc2120b834102b073e0fc4fe2cd75.bindPopup(popup_c4b47887cd314624b0b449fdfc0057f0)
+        ;
+
+        
+    
+    
+            marker_1dcfc2120b834102b073e0fc4fe2cd75.bindTooltip(
+                `<div>
+                     ศูนย์แสดงและจำหน่ายสินค้า OTOP จังหวัดอุบลราชธานี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91159e148e43483c8a1e46bc6210236d = L.marker(
+                [19.909242, 99.823357],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_1c7860c805ee46b1b4ee4fe9c909e41c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_91159e148e43483c8a1e46bc6210236d.setIcon(icon_1c7860c805ee46b1b4ee4fe9c909e41c);
+        
+    
+        var popup_6ba819196c6b4cc4aa9bba0c0fdbf10c = L.popup({"maxWidth": 500});
+
+        
+            var html_3c75b640c7324927aaca5de74888110f = $(`<div id="html_3c75b640c7324927aaca5de74888110f" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 14</h5> <h5>ค่าPM2.5 : 5 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_6ba819196c6b4cc4aa9bba0c0fdbf10c.setContent(html_3c75b640c7324927aaca5de74888110f);
+        
+
+        marker_91159e148e43483c8a1e46bc6210236d.bindPopup(popup_6ba819196c6b4cc4aa9bba0c0fdbf10c)
+        ;
+
+        
+    
+    
+            marker_91159e148e43483c8a1e46bc6210236d.bindTooltip(
+                `<div>
+                     สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดเชียงราย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ee971e6c9284915a1a704c142fae684 = L.marker(
+                [20.427325, 99.883842],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_61a203e999cc4c53872b8173f114964f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6ee971e6c9284915a1a704c142fae684.setIcon(icon_61a203e999cc4c53872b8173f114964f);
+        
+    
+        var popup_bc82f898c71e41da9b2751fb52e349f5 = L.popup({"maxWidth": 500});
+
+        
+            var html_fd2a18757aed4f5a8cefce4306219687 = $(`<div id="html_fd2a18757aed4f5a8cefce4306219687" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 21</h5> <h5>ค่าPM2.5 : 13 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_bc82f898c71e41da9b2751fb52e349f5.setContent(html_fd2a18757aed4f5a8cefce4306219687);
+        
+
+        marker_6ee971e6c9284915a1a704c142fae684.bindPopup(popup_bc82f898c71e41da9b2751fb52e349f5)
+        ;
+
+        
+    
+    
+            marker_6ee971e6c9284915a1a704c142fae684.bindTooltip(
+                `<div>
+                     สำนักงานสาธารณสุขแม่สาย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6c9d1fb34b4470e802dd2dd15cc713f = L.marker(
+                [18.840633, 98.969661],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_cbeeb21f00a741db9bf2c8f7b9c2d3e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6c9d1fb34b4470e802dd2dd15cc713f.setIcon(icon_cbeeb21f00a741db9bf2c8f7b9c2d3e0);
+        
+    
+        var popup_f11bea397a8f46a7bd4679a1765015ba = L.popup({"maxWidth": 500});
+
+        
+            var html_2310824d3d92479dbfdcce8c5d7e6857 = $(`<div id="html_2310824d3d92479dbfdcce8c5d7e6857" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 28</h5> <h5>ค่าPM2.5 : 12 µg/m³</h5> <b>ระดับความรุนเเรง : 2</b></div>`)[0];
+            popup_f11bea397a8f46a7bd4679a1765015ba.setContent(html_2310824d3d92479dbfdcce8c5d7e6857);
+        
+
+        marker_d6c9d1fb34b4470e802dd2dd15cc713f.bindPopup(popup_f11bea397a8f46a7bd4679a1765015ba)
+        ;
+
+        
+    
+    
+            marker_d6c9d1fb34b4470e802dd2dd15cc713f.bindTooltip(
+                `<div>
+                     ศูนย์ราชการจังหวัดเชียงใหม่ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6eb4c380246e436b9c9d6fd373613c26 = L.marker(
+                [18.7909205, 98.9881062],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_d64b9b73268649f6b084bb31a654323a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6eb4c380246e436b9c9d6fd373613c26.setIcon(icon_d64b9b73268649f6b084bb31a654323a);
+        
+    
+        var popup_e3194f2620274e7b85f8efa97233373a = L.popup({"maxWidth": 500});
+
+        
+            var html_231a87d3114f470c8ea22e38871330cb = $(`<div id="html_231a87d3114f470c8ea22e38871330cb" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 10</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_e3194f2620274e7b85f8efa97233373a.setContent(html_231a87d3114f470c8ea22e38871330cb);
+        
+
+        marker_6eb4c380246e436b9c9d6fd373613c26.bindPopup(popup_e3194f2620274e7b85f8efa97233373a)
+        ;
+
+        
+    
+    
+            marker_6eb4c380246e436b9c9d6fd373613c26.bindTooltip(
+                `<div>
+                     โรงเรียนยุพราชวิทยาลัย 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bddecd519cd94cfeb0347b323fade17b = L.marker(
+                [17.48462, 101.732734],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_3c943f22b35d4b73b40160f2219d8a2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_bddecd519cd94cfeb0347b323fade17b.setIcon(icon_3c943f22b35d4b73b40160f2219d8a2e);
+        
+    
+        var popup_005228b650364c95a398d65955bfff3a = L.popup({"maxWidth": 500});
+
+        
+            var html_d43cfff377324887be4ea0446c23bcb9 = $(`<div id="html_d43cfff377324887be4ea0446c23bcb9" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 4 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_005228b650364c95a398d65955bfff3a.setContent(html_d43cfff377324887be4ea0446c23bcb9);
+        
+
+        marker_bddecd519cd94cfeb0347b323fade17b.bindPopup(popup_005228b650364c95a398d65955bfff3a)
+        ;
+
+        
+    
+    
+            marker_bddecd519cd94cfeb0347b323fade17b.bindTooltip(
+                `<div>
+                     สวนสาธารณะเฉลิมพระเกียรติ 60 พรรษามหาราชินี จังหวัดเลย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_181b8582fc53467d8b502c3247bc4a92 = L.marker(
+                [18.128928, 100.162345],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_26b8fc61437f4828b1f65d93144e4cb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_181b8582fc53467d8b502c3247bc4a92.setIcon(icon_26b8fc61437f4828b1f65d93144e4cb4);
+        
+    
+        var popup_575c818aeb6549b2b7f2c4f86b32a388 = L.popup({"maxWidth": 500});
+
+        
+            var html_2f17cf87c8be447d9713d30aa47e44e7 = $(`<div id="html_2f17cf87c8be447d9713d30aa47e44e7" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 16</h5> <h5>ค่าPM2.5 : 7 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_575c818aeb6549b2b7f2c4f86b32a388.setContent(html_2f17cf87c8be447d9713d30aa47e44e7);
+        
+
+        marker_181b8582fc53467d8b502c3247bc4a92.bindPopup(popup_575c818aeb6549b2b7f2c4f86b32a388)
+        ;
+
+        
+    
+    
+            marker_181b8582fc53467d8b502c3247bc4a92.bindTooltip(
+                `<div>
+                     อุตุนิยมวิทยาจังหวัดแพร่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29e70dc7908a49e4ba96e7ab002cc379 = L.marker(
+                [19.304686, 97.970999],
+                {}
+            ).addTo(map_8aa2ff646c404d08a8da8b5195ae7e78);
+        
+    
+            var icon_81881535dc194cd689b9a35b9c4bc9be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_29e70dc7908a49e4ba96e7ab002cc379.setIcon(icon_81881535dc194cd689b9a35b9c4bc9be);
+        
+    
+        var popup_bf795a5f78c5475d96735959849a9939 = L.popup({"maxWidth": 500});
+
+        
+            var html_f34557bce0694ee48a39c67fcc8f1a72 = $(`<div id="html_f34557bce0694ee48a39c67fcc8f1a72" style="width: 100.0%; height: 100.0%;"><h5>ค่าดัชนีคุณภาพอากาศ (AQI) : 19</h5> <h5>ค่าPM2.5 : 6 µg/m³</h5> <b>ระดับความรุนเเรง : 1</b></div>`)[0];
+            popup_bf795a5f78c5475d96735959849a9939.setContent(html_f34557bce0694ee48a39c67fcc8f1a72);
+        
+
+        marker_29e70dc7908a49e4ba96e7ab002cc379.bindPopup(popup_bf795a5f78c5475d96735959849a9939)
+        ;
+
+        
+    
+    
+            marker_29e70dc7908a49e4ba96e7ab002cc379.bindTooltip(
+                `<div>
+                     สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดแม่ฮ่องสอน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
